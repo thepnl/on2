@@ -19,7 +19,10 @@ body {
   height: calc(var(--vh, 1vh) * 100);
   word-spacing: -2px;
   letter-spacing: -0.45px;
-  font-family: "Helvetica Neue","Apple SD Gothic Neo";
+
+  font-family: "NotoKr", "Malgun Gothic", "맑은 고딕", "Dotum", "돋움",
+    "Helvetica", "AppleSDGothicNeo", sans-serif;
+
 
 }
 
@@ -1351,3 +1354,15 @@ section.penpal-wrap .share-cont button .ic-like{
   to {opacity: 1}
 }
  
+
+
+
+
+
+
+
+
+
+
+
+
