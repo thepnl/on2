@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+<!--  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />-->
+  <link rel="stylesheet" href="../css/main.css" />
+  <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="../js/front.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="header" class="">
+      <h1>
+        <button type="button">로고</button>
+      </h1>
+      <button type="button" class="menu" onclick="openNav()">빠른메뉴</button>
+
+      <div class="search-wrap">
+        <input type="search" placeholder="" />
+        <button type="button" class="ic search">검색</button>
+      </div>
+    </header>
+
+    <div id="mySidepanel" class="sidepanel side-menu" style="">
+      <div class="inner" id="left-menu">
+        <div class="side-header"><i class="ic login"></i> 로그인하세요</div>
+        <div class="side-cont">
+          <div class="ect-list">
+            <button type="button"><i class="ic checkin"></i>체크인</button>
+            <button type="button"><i class="ic notice"></i>공지/알림</button>
+            <button type="button"><i class="ic pay"></i>회비</button>
+          </div>
+          <button type="button" class="app">광화문 ON 앱으로 보기</button>
+
+          <div class="nav-list">
+            <button type="button" class="news"><i></i>뉴스</button>
+            <button type="button" class="around"><i></i>광장</button>
+            <button type="button" class="tv"><i></i>TV</button>
+            <button type="button" class="shopping"><i></i>쇼핑</button>
+            <button type="button" class="event"><i></i>행사</button>
+          </div>
+
+          <div class="site-list">
+            <h2 class="title">제휴사이트 바로가기</h2>
+            <div class="list">
+              <button type="button"><i></i>자유일보</button>
+              <button type="button"><i></i>설교학교</button>
+              <button type="button"><i></i>교민청</button>
+              <button type="button"><i></i>대국본</button>
+            </div>
+          </div>
+        </div>
+        <!--//wrap-->
+        <div class="fnb-list">
+          <button type="button">내정보</button>
+          <button type="button">개인약관</button>
+        </div>
+        <a href="javascript:void(0)" class="close" onclick="closeNav()">닫기</a>
+      </div>
+      <!--//inner-->
+      <div class="bgDim"></div>
+    </div>
+    <!--//sidepanel-->
+
+    <div class="nav-wrap">
+      <nav>
+        <button type="button" class="on">홈</button>
+        <button type="button">펜팔</button>
+        <button type="button">뉴스</button>
+        <button type="button">TV</button>
+        <button type="button">행사</button>
+      </nav>
+    </div>
+    <!--//nav-wrap-->
+    <main>
+
+      <div class="mybook-list flex-justify">
+        <div class="list">
+          <div>
+            <button><img src="../images/img-banner-03.png" alt="" /></button>
+            <span>딩고뮤직/스우파맨</span>
+          </div>
+          <div>
+            <button><img src="../images/img-banner-03.png" alt="" /></button>
+            <span>딩고뮤직/스우파맨</span>
+          </div>
+          <div>
+            <button><img src="../images/img-banner-03.png" alt="" /></button>
+            <span>딩고뮤직/스우파맨</span>
+          </div>
+          <div>
+            <button><img src="../images/img-banner-03.png" alt="" /></button>
+            <span>딩고뮤직/스우파맨</span>
+          </div>
+          <div>
+            <button><img src="../images/img-banner-03.png" alt="" /></button>
+            <span>딩고뮤직/스우파맨</span>
+          </div>
+          <div>
+            <button><img src="../images/img-banner-03.png" alt="" /></button>
+            <span>딩고뮤직/스우파맨</span>
+          </div>
+          <div>
+            <button><img src="../images/img-banner-03.png" alt="" /></button>
+            <span>딩고뮤직/스우파맨</span>
+          </div>
+
+        </div>
+        <button class="btn-all">
+          전체
+        </button>
+      </div>
+
+      <section class="mybook-wrap">
+
+        <div class="cont">
+
+          <div class="photo">
+            <button>
+              <img src="../images/img-banner-03.png" alt="" />
+            </button>
+          </div>
+          <div class="text">
+            <div class="txt">
+              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔 진실·정의
+              특별보고관 만난 이용수 할머니유엔 진실·정의 특별보고관 만난 이용수 할머니유엔 진실·정의
+              특별보고관 만난 이용수 할머니
+            </div>
+
+
+            <button class="more " onclick="document.getElementById('myModal').style.display='block'">구독</button>
+          </div>
+          <div class="flex-justify">
+            <div class="etc-cont">
+              <span class="view"><i></i>72.42</span>
+              <span class="comment"><i></i>156</span>
+              <span class="like"><i></i>326</span>
+            </div>
+            <div class="share-cont">
+              <button><i class="ic-share"></i>공유하기</button>
+            </div>
+          </div>
+
+
+        </div><!--//cont-->
+        <div class="cont">
+
+          <div class="photo">
+            <button>
+              <img src="../images/img-banner-03.png" alt="" />
+            </button>
+          </div>
+          <div class="text">
+            <div class="txt">
+              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔 진실·정의
+              특별보고관 만난 이용수 할머니유엔 진실·정의 특별보고관 만난 이용수 할머니유엔 진실·정의
+              특별보고관 만난 이용수 할머니
+            </div>
+            <button class="more" onclick="document.getElementById('myModal').style.display='block'"s >구독</button>
+          </div>
+          <div class="flex-justify">
+            <div class="etc-cont">
+              <span class="view"><i></i>72.42</span>
+              <span class="comment"><i></i>156</span>
+              <span class="like"><i></i>326</span>
+            </div>
+            <div class="share-cont">
+              <button><i class="ic-share"></i>공유하기</button>
+            </div>
+          </div>
+
+        </div><!--//cont-->
+        <div class="cont">
+
+          <div class="photo">
+            <button>
+              <img src="../images/img-banner-03.png" alt="" />
+            </button>
+          </div>
+          <div class="text">
+            <div class="txt">
+              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔 진실·정의
+              특별보고관 만난 이용수 할머니유엔 진실·정의 특별보고관 만난 이용수 할머니유엔 진실·정의
+              특별보고관 만난 이용수 할머니
+            </div>
+            <button class="more" onclick="document.getElementById('myModal').style.display='block'">구독</button>
+          </div>
+          <div class="flex-justify">
+            <div class="etc-cont">
+              <span class="view"><i></i>72.42</span>
+              <span class="comment"><i></i>156</span>
+              <span class="like"><i></i>326</span>
+            </div>
+            <div class="share-cont">
+              <button><i class="ic-share"></i>공유하기</button>
+            </div>
+          </div>
+
+        </div><!--//cont-->
+
+      </section>
+
+      <div id="myModal" class="modal-cont">
+        <div class="cont modal-close">
+          <button class="text-red" onclick="modal.style.display='none'"><span class="img"><img src="../images/img-banner-03.png" alt="" /></span> 구독취소</button>
+          <button onclick="modal.style.display='none'"><span class="img"><img src="../images/img-banner-03.png" alt="" /></span> 숨기기</button>
+        </div>
+      </div>
+
+      <script>
+
+        // Get the modal
+        var modal = document.getElementById('myModal');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+      </script>
+
+
+
+    </main>
+  </div>
+  <!--//wrap-->
+  <footer class="">
+    <button type="button" class="home on"><i></i>홈</button>
+    <button type="button" class="talk"><i></i>펜팔</button>
+    <button type="button" class="add"><i></i></button>
+    <button type="button" class="mall"><i></i>구독</button>
+    <button type="button" class="mypage"><i></i>내정보</button>
+  </footer>
+</body>
+
+</html>
