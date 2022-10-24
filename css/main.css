@@ -1299,13 +1299,13 @@ section.penpal-wrap .share-cont button .ic-like{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 10px;
+  margin-right: 15px;
   position: relative;
 }
 
 .mybook-list .list button{
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
@@ -1318,7 +1318,7 @@ section.penpal-wrap .share-cont button .ic-like{
 .mybook-list .list div span{
   display: block;
   font-size: 12px;
-  text-align: left;
+  text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
   width: 100%;
@@ -1328,6 +1328,7 @@ section.penpal-wrap .share-cont button .ic-like{
   -webkit-box-orient: vertical;
   word-wrap: break-word;
   line-height: 18px;
+  margin: 5px 0px;
 }
 .mybook-list .btn-all{
   width:50px ;
