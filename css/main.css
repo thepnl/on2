@@ -85,13 +85,13 @@ header h1 {
   border-image: linear-gradient(to right, red 0%, orange 100%);
   border-image-slice: 1; */
   /* padding: 0 10px; */
-  margin: 10px 10px;
+  margin: 10px 10px 0px 10px;
   padding: 0 0;
   height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
   border-radius: 5px;
   background-image: linear-gradient(#fff, #fff),
     linear-gradient(to right, #e5302c 0%, #2583cb 100%);
@@ -376,12 +376,13 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 45px;
   border-bottom: 1px solid #dcdcdc;
   width: 100%;
   overflow-x: scroll;
   overflow-y: hidden;
-  padding: 0 10px;
+  padding: 0px 10px;
+  font-size: 17px;
 }
 
 .nav-wrap button {
@@ -430,6 +431,7 @@ footer {
   background: #fff;
   width: 100%;
   height: 80px;
+  font-size: 10px;
 
 }
 footer.fixed {
@@ -456,7 +458,6 @@ footer button {
 footer button i {
   width: 40px;
   height: 40px;
-  margin-bottom: 5px;
 }
 
 footer button.on {
@@ -513,7 +514,7 @@ main{
   border-bottom: 1px solid #ebebeb;
 }
 .key-wrap .key-title .tit{
-  width: 37%;
+  width: 20%;
 }
 .key-wrap .key-title .list{
   height: 100%;
@@ -604,12 +605,31 @@ main{
   align-items: center;
   padding:10px 10px;
 }
-.key-cont ol li em{
+
+.key-cont ol li:first-of-type em {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding:10px 10px;
   font-style: normal;
   width: 20px;
   height: 20px;
   border-radius: 50%;
   background-color: #eb443b;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+
+.key-cont ol li em{
+  font-style: normal;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #d0d1d2;
   color: #fff;
   display: inline-flex;
   justify-content: center;
@@ -666,7 +686,7 @@ section.penpal-wrap ol li em{
   
 }
 section.penpal-wrap ol li .ic-num01{
-  background:url(../images/number1.gif) center center no-repeat;
+  background:url(../images/icon-num-1.png) center center no-repeat;
   background-size: auto 40px;
 }
 section.penpal-wrap ol li .ic-num02{
@@ -675,6 +695,14 @@ section.penpal-wrap ol li .ic-num02{
 }
 section.penpal-wrap ol li .ic-num03{
   background:url(../images/icon-num-3.png) center center no-repeat;
+  background-size: auto 40px;
+}
+section.penpal-wrap ol li .ic-num04{
+  background:url(../images/icon-num-4.png) center center no-repeat;
+  background-size: auto 40px;
+}
+section.penpal-wrap ol li .ic-num05{
+  background:url(../images/icon-num-5.png) center center no-repeat;
   background-size: auto 40px;
 }
 section.penpal-wrap ol li span{
@@ -993,7 +1021,7 @@ section.penpal-wrap .share-cont button .ic-like{
 .penpla-wrap h2{
   font-size: 26px;
   color: #000;
-  font-weight: 800;
+  font-weight: 600;
   text-align: center;
   margin-bottom: 20px;
   letter-spacing: -1px;
@@ -1037,6 +1065,9 @@ section.penpal-wrap .share-cont button .ic-like{
   justify-content: space-between;
   align-items: center;
   flex: 1;
+  color: #666;
+  font-size: 14px;
+  padding-right: 10px;
 }
 .penpla-wrap ol li .num{
   width: 45px;
@@ -1044,6 +1075,7 @@ section.penpal-wrap .share-cont button .ic-like{
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  color: #666;
 }
 .penpla-wrap ol li .num img{
   max-width: 100%;
@@ -1068,6 +1100,7 @@ section.penpal-wrap .share-cont button .ic-like{
   -webkit-box-orient: vertical;
   word-wrap: break-word;
   line-height: 20px;
+  padding: 0px 5px;
 }
 .penpla-wrap .more{
   border: 3px solid transparent;
