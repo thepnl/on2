@@ -912,9 +912,9 @@ section.penpal-wrap .share-cont button .ic-like{
   color: #666;
 }
 .uplode-cont .cont .share-cont button:first-child{
-  /*background: url(../images/ic-line-01.png) right center no-repeat;*/
+  background: url(../images/ic-line-01.png) right center no-repeat;
   background-size: 1px 25px;
-  /* margin-right: 10px; */
+  padding-right: 5px
 }
 .uplode-cont .cont .share-cont button .ic-share{
   background: url(../images/ic-share01.png) center center no-repeat;
@@ -1120,23 +1120,33 @@ section.penpal-wrap .share-cont button .ic-like{
 
 /*mybook-wrap*/
 .mybook-wrap{
-  padding: 10px 15px;
+  padding: 10px 10px;
   background-color: #fff;
   margin-bottom: 10px;
 }
 
 .mybook-wrap .cont{
   width:100%;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ededed;
+  margin-bottom: 15px;
+  display: flex;
+  
+  justify-content: start;
+  align-items: flex-start;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 15px;
+}
+.mybook-wrap .cont:last-child{
+  border-bottom: none;
 }
 
 
 
 .mybook-wrap .cont  .photo {
-  width: 100%;
-  margin-bottom: 10px;
-  height: auto;
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .mybook-wrap .cont .photo button{
@@ -1146,29 +1156,32 @@ section.penpal-wrap .share-cont button .ic-like{
 
 .mybook-wrap .cont  .photo img {
   width: 100%;
-  height: 100%;s
+  height: 100%;
 }
 .mybook-wrap .cont .text{
+  flex: 1;
+  width: 67%;
   position: relative;
+  
 }
 .mybook-wrap .cont .txt {
   overflow: hidden;
+  width:90%;
+  overflow: hidden;
+  display: block;
   text-overflow: ellipsis;
-  width: 88%;
-  height: 40px;
-  display: -webkit-box;
-  -webkit-line-clamp: 2; /* 라인수 */
-  -webkit-box-orient: vertical;
-  word-wrap: break-word;
-  line-height: 20px;
+  word-break: break-all;
+  line-height: 23px;
   text-align: left;
-  margin-bottom: 10px;
-  font-weight: 400;
+  margin-bottom: 2px;
+  font-size: 17px;
+  font-weight: 600;
+  
 
 
 }
 .mybook-wrap .cont .text button.more{
-  width: 40px;
+  width: 20px;
   height: 40px;
   position: absolute;
   right: 0;
@@ -1176,6 +1189,16 @@ section.penpal-wrap .share-cont button .ic-like{
   background: #fff url("../images/ic-more.png") right -5px no-repeat;
   background-size: auto 30px;
   font-size: 0;
+}
+.mybook-wrap  div.date{
+  font-size: 12px;
+  color: #999;
+}
+.mybook-wrap  div.date b{
+  margin-right: 5px;
+  color: #333;
+  font-weight: 500;
+  
 }
 
 .mybook-wrap .share-cont{
@@ -1211,6 +1234,7 @@ section.penpal-wrap .share-cont button .ic-like{
   margin-right: 10px;
 }
 .mybook-wrap .etc-cont {
+  margin-top: -4px;
   font-size: 14px;
   color: #666;
 
@@ -1219,19 +1243,20 @@ section.penpal-wrap .share-cont button .ic-like{
   vertical-align: sub;
   width: 24px;
   height: 24px;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
+
 .mybook-wrap  .etc-cont span.view i {
-  background: url(../images/ic-eye.png) center center no-repeat;
+  background: url(../images/ic-eye.png) center 5px no-repeat;
   background-size: 24px;
 }
 .mybook-wrap  .etc-cont span.comment i {
-  background: url(../images/ic-comen.png) center center no-repeat;
+  background: url(../images/ic-comen.png)  center 3px no-repeat;
   background-size: 24px;
 }
 .mybook-wrap  .etc-cont span.like i {
-  background: url(../images/ic-like-xs.png) center center no-repeat;
+  background: url(../images/ic-like-xs.png)  center 3px no-repeat;
   background-size: 24px;
 }
 .mybook-wrap .flex-justify .share-cont button{
@@ -1275,6 +1300,7 @@ section.penpal-wrap .share-cont button .ic-like{
   justify-content: center;
   align-items: center;
   margin-right: 10px;
+  position: relative;
 }
 
 .mybook-list .list button{
@@ -1282,6 +1308,7 @@ section.penpal-wrap .share-cont button .ic-like{
   height: 60px;
   border-radius: 50%;
   overflow: hidden;
+  position: relative;
 
 }
 .mybook-list .list button img{
@@ -1314,6 +1341,17 @@ section.penpal-wrap .share-cont button .ic-like{
   right: 0;
   top: 0;
   background: #fff;
+}
+.mybook-list .list  em{
+  position: absolute;
+  right: 4px;
+  top: 50px;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-color: red;
+  font-size: 0;
 }
 
 /*modal-cont*/
