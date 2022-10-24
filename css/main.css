@@ -912,9 +912,9 @@ section.penpal-wrap .share-cont button .ic-like{
   color: #666;
 }
 .uplode-cont .cont .share-cont button:first-child{
-  background: url(../images/ic-line-01.png) right center no-repeat;
+  /*background: url(../images/ic-line-01.png) right center no-repeat;*/
   background-size: 1px 25px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 .uplode-cont .cont .share-cont button .ic-share{
   background: url(../images/ic-share01.png) center center no-repeat;
