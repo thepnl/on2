@@ -403,67 +403,6 @@ div.more button:after {
   background-size: auto 16px;
 }
 
-/*footer*/
-footer {
-  clear: both;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  height: 80px;
-  padding: 0 20px;
-  box-shadow: 0px -4px 13px 0 rgba(4, 0, 0, 0.1);
-}
-footer.fixed {
-  clear: both;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  height: 80px;
-  padding: 0 20px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-footer button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-footer button i {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 5px;
-}
-
-footer button.on {
-  color: #e52d29;
-}
-
-footer button.home i {
-  background: url(../images/ic-foot-01.png) center center no-repeat;
-  background-size: 40px;
-}
-footer button.pay i {
-  background: url(../images/ic-foot-02.png) center center no-repeat;
-  background-size: 40px;
-}
-footer button.talk i {
-  background: url(../images/ic-foot-03.png) center center no-repeat;
-  background-size: 40px;
-}
-footer button.mall i {
-  background: url(../images/ic-foot-04.png) center center no-repeat;
-  background-size: 40px;
-}
-footer button.mypage i {
-  background: url(../images/ic-foot-05.png) center center no-repeat;
-  background-size: 40px;
-}
-
 /*tab-list*/
 .tab-list {
   display: flex;
@@ -496,7 +435,7 @@ footer button.mypage i {
   border-bottom: 8px solid #eee;
 }
 .news-list ul li a {
-  padding: 10px 20px;
+  padding: 6px 20px;
   font-size: 16px;
   display: block;
   overflow: hidden;
@@ -961,7 +900,7 @@ footer button.mypage i {
 
 /*story-wrap*/
 .story-wrap ul li {
-  border-bottom: 1px solid #dcdcdc;
+  border: 1px solid #dcdcdc;
   padding: 8px 0;
   text-align: center;
   width: 50%;
