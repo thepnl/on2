@@ -1,258 +1,425 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>광화문 온</title>
-    <link rel="stylesheet" href="../css/style.css" />
+<html lang="en" xmlns="">
 
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-    <script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="../js/front.js"></script>
-  </head>
-  <body>
-    <div id="wrap">
-      <header>
-        <h1>
-          <button type="button">로고</button>
-        </h1>
-        <button type="button" class="menu" onclick="openNav()">빠른메뉴</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-        <div class="search-wrap">
-          <input type="search" placeholder="" />
-          <button type="button" class="ic search">검색</button>
-        </div>
-      </header>
+  <!--  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />-->
+  <link rel="stylesheet" href="../css/main.css" />
+  <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="../js/front.js"></script>
+</head>
 
-      <div class="nav-wrap">
-        <nav>
-          <button type="button">뉴스</button>
-          <button type="button">포토</button>
-          <button type="button" class="on">펜팔</button>
-          <button type="button">TV</button>
-          <button type="button">광장</button>
-          <button type="button">쇼핑</button>
-          <button type="button">행사</button>
-        </nav>
+<body>
+  <div id="wrap">
+    <header id="header" class="">
+      <h1>
+        <button type="button">로고</button>
+      </h1>
+      <button type="button" class="menu" onclick="openNav()">빠른메뉴</button>
+
+      <div class="search-wrap">
+        <input type="search" placeholder="" />
+        <button type="button" class="ic search">검색</button>
       </div>
-      <!--//nav-wrap-->
+    </header>
 
-      <section class="">
-        <div class="tab-list">
-          <button type="button" class="on">오늘의 펜팔</button>
-          <button type="button" class="">펜팔 스토리</button>
-          <button type="button" class="">주관 베스트</button>
-        </div>
+    <div id="mySidepanel" class="sidepanel side-menu" style="">
+      <div class="inner" id="left-menu">
+        <div class="side-header"><i class="ic login"></i> 로그인하세요</div>
+        <div class="side-cont">
+          <div class="ect-list">
+            <button type="button"><i class="ic checkin"></i>체크인</button>
+            <button type="button"><i class="ic notice"></i>공지/알림</button>
+            <button type="button"><i class="ic pay"></i>회비</button>
+          </div>
+          <button type="button" class="app">광화문 ON 앱으로 보기</button>
 
-        <div class="notice-wrap">
-          <h2 class="title">공지사항</h2>
-          <ul>
-            <li>
-              <span>공지</span>
-              <button type="button">
-                우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-              </button>
-              <em>(100)</em>
-            </li>
-            <li>
-              <span>공지</span>
-              <button type="button">
-                우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란 우산으로
-                얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-              </button>
-              <em>(100)</em>
-            </li>
-            <li>
-              <span>공지</span>
-              <button type="button">
-                우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-              </button>
-              <em>(100)</em>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!--//main-wrap-->
+          <div class="nav-list">
+            <button type="button" class="news"><i></i>뉴스</button>
+            <button type="button" class="around"><i></i>광장</button>
+            <button type="button" class="tv"><i></i>TV</button>
+            <button type="button" class="shopping"><i></i>쇼핑</button>
+            <button type="button" class="event"><i></i>행사</button>
+          </div>
 
-      <section class="panpal-list">
-        <h2 class="title">오늘의 펜팔</h2>
-        <div class="photo-list typeC">
-          <ul>
-            <li>
-              <span>1</span>
-              <div class="title">
-                <button type="button">
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                </button>
-                <div class="etc">
-                  <span class="view"><i></i>72.42</span>
-                  <span class="comment"><i></i>156</span>
-                  <span class="like"><i></i>326</span>
-                </div>
-              </div>
-              <div class="photo">
-                <img
-                  src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
-                  alt=""
-                />
-              </div>
-            </li>
-            <li>
-              <span>2</span>
-              <div class="title">
-                <button type="button">
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                </button>
-                <div class="etc">
-                  <span class="view"><i></i>72.42</span>
-                  <span class="comment"><i></i>156</span>
-                  <span class="like"><i></i>326</span>
-                </div>
-              </div>
-              <div class="photo">
-                <img
-                  src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
-                  alt=""
-                />
-              </div>
-            </li>
-            <li>
-              <span>3</span>
-              <div class="title">
-                <button type="button">
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                </button>
-                <div class="etc">
-                  <span class="view"><i></i>72.42</span>
-                  <span class="comment"><i></i>156</span>
-                  <span class="like"><i></i>326</span>
-                </div>
-              </div>
-              <div class="photo">
-                <img
-                  src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
-                  alt=""
-                />
-              </div>
-            </li>
-            <li>
-              <span>4</span>
-              <div class="title">
-                <button type="button">
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                </button>
-                <div class="etc">
-                  <span class="view"><i></i>72.42</span>
-                  <span class="comment"><i></i>156</span>
-                  <span class="like"><i></i>326</span>
-                </div>
-              </div>
-              <div class="photo">
-                <img
-                  src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
-                  alt=""
-                />
-              </div>
-            </li>
-            <li>
-              <span>5</span>
-              <div class="title">
-                <button type="button">
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                </button>
-                <div class="etc">
-                  <span class="view"><i></i>72.42</span>
-                  <span class="comment"><i></i>156</span>
-                  <span class="like"><i></i>326</span>
-                </div>
-              </div>
-              <div class="photo">
-                <img
-                  src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
-                  alt=""
-                />
-              </div>
-            </li>
-            <li>
-              <span>6</span>
-              <div class="title">
-                <button type="button">
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                </button>
-                <div class="etc">
-                  <span class="view"><i></i>72.42</span>
-                  <span class="comment"><i></i>156</span>
-                  <span class="like"><i></i>326</span>
-                </div>
-              </div>
-              <div class="photo">
-                <img
-                  src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
-                  alt=""
-                />
-              </div>
-            </li>
-            <li>
-              <span>7</span>
-              <div class="title">
-                <button type="button">
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                </button>
-                <div class="etc">
-                  <span class="view"><i></i>72.42</span>
-                  <span class="comment"><i></i>156</span>
-                  <span class="like"><i></i>326</span>
-                </div>
-              </div>
-              <div class="photo">
-                <img
-                  src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
-                  alt=""
-                />
-              </div>
-            </li>
-            <li>
-              <span>8</span>
-              <div class="title">
-                <button type="button">
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                  우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
-                </button>
-                <div class="etc">
-                  <span class="view"><i></i>72.42</span>
-                  <span class="comment"><i></i>156</span>
-                  <span class="like"><i></i>326</span>
-                </div>
-              </div>
-              <div class="photo">
-                <img
-                  src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
-                  alt=""
-                />
-              </div>
-            </li>
-          </ul>
+          <div class="site-list">
+            <h2 class="title">제휴사이트 바로가기</h2>
+            <div class="list">
+              <button type="button"><i></i>자유일보</button>
+              <button type="button"><i></i>설교학교</button>
+              <button type="button"><i></i>교민청</button>
+              <button type="button"><i></i>대국본</button>
+            </div>
+          </div>
         </div>
-      </section>
+        <!--//wrap-->
+        <div class="fnb-list">
+          <button type="button">내정보</button>
+          <button type="button">개인약관</button>
+        </div>
+        <a href="javascript:void(0)" class="close" onclick="closeNav()">닫기</a>
+      </div>
+      <!--//inner-->
+      <div class="bgDim"></div>
     </div>
-    <!--//wrap-->
-    <footer>
-      <button type="button" class="home on"><i></i>홈</button>
-      <button type="button" class="pay"><i></i>회비</button>
-      <button type="button" class="talk"><i></i>광화문톡</button>
-      <button type="button" class="mall"><i></i>광화문몰</button>
-      <button type="button" class="mypage"><i></i>내정보</button>
-    </footer>
-  </body>
+    <!--//sidepanel-->
+
+    <div class="nav-wrap">
+      <nav>
+        <button type="button">홈</button>
+        <button type="button" class="on">펜팔</button>
+        <button type="button">뉴스</button>
+        <button type="button">TV</button>
+        <button type="button">행사</button>
+      </nav>
+    </div>
+    <!--//nav-wrap-->
+    <section class="main-wrap">
+      <div class="tab-list">
+        <button type="button" class="">오늘의 펜팔</button>
+        <button type="button" class="on">펜팔 스토리</button>
+        <button type="button" class="">주간 베스트</button>
+      </div>
+    </section>
+    <main>
+      <section class="key-wrap">
+
+        <div class="key-title" id="keyTitle">
+          <div class="noti">공지</div>
+          <div class="nlist">
+            <span>무도한 도발 중단하라</span>
+          </div>
+          <div class="btn" >
+            <button onclick="openKey();" id="openKeyBtn">열기</button>
+          </div>
+        </div>
+        <!--key-title-->
+        <div class="key-cont" id="openKeyCont" >
+          <ol>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+          </ol>
+          <button class="close" onclick="closeKey();">닫기</button>
+        </div>
+
+      </section>
+      
+      <div class="mybook-list flex-justify">
+        <div class="list">
+          <div>
+            <button><img src="../images/img-banner-03.png" alt="" /></button>
+            <span>너알아TV</span>
+            <em>on</em>
+
+          </div>
+          <div>
+            <button><img src="../images/img-banner-03.png" alt="" /></button>
+            <span>너알아TV</span>
+            <em>on</em>
+          </div>
+          <div>
+            <button><img src="../images/img-banner-03.png" alt="" /></button>
+            <span>너알아TV</span>
+            <em style="background-color: red ;">on</em>
+          </div>
+          <div>
+            <button><img src="../images/img-banner-03.png" alt="" /></button>
+            <span>너알아TV</span>
+          </div>
+          <div>
+            <button><img src="../images/img-banner-03.png" alt="" /></button>
+            <span>너알아TV</span>
+          </div>
+          <div>
+            <button><img src="../images/img-banner-03.png" alt="" /></button>
+            <span>너알아TV</span>
+          </div>
+          <div>
+            <button><img src="../images/img-banner-03.png" alt="" /></button>
+            <span>너알아TV</span>
+          </div>
+
+        </div>
+        <button class="btn-all">
+          전체
+        </button>
+      </div>
+
+      <section class="mybook-wrap">
+        <h2 class="title">카테고리 명</h2>
+        <div class="cont">
+          <div class="photo">
+            <button>
+              <img src="../images/img-banner.jpg" alt="" />
+            </button>
+          </div>
+          <div class="text">
+            <div class="txt">
+              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+            </div>
+            <div class="">
+              <div class="date">
+                <b>세일러목</b> <span class="date">2022.10.14</span>
+              </div>
+              <div class="etc-cont">
+                <span class="view"><i></i>72.42</span>
+                <span class="comment"><i></i>156</span>
+                <span class="like"><i></i>626</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <!--//cont-->
+        <div class="cont">
+          <div class="photo">
+            <button>
+              <img src="../images/img-banner.jpg" alt="" />
+            </button>
+          </div>
+          <div class="text">
+            <div class="txt">
+              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+            </div>
+            <div class="">
+              <div class="date">
+                <b>세일러목</b> <span class="date">2022.10.14</span>
+              </div>
+              <div class="etc-cont">
+                <span class="view"><i></i>72.42</span>
+                <span class="comment"><i></i>156</span>
+                <span class="like"><i></i>526</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <!--//cont-->
+        <div class="cont">
+          <div class="photo">
+            <button>
+              <img src="../images/img-banner.jpg" alt="" />
+            </button>
+          </div>
+          <div class="text">
+            <div class="txt">
+              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+            </div>
+            <div class="">
+              <div class="date">
+                <b>세일러목</b> <span class="date">2022.10.14</span>
+              </div>
+              <div class="etc-cont">
+                <span class="view"><i></i>72.42</span>
+                <span class="comment"><i></i>156</span>
+                <span class="like"><i></i>426</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <!--//cont-->
+        <div class="cont">
+          <div class="photo">
+            <button>
+              <img src="../images/img-banner.jpg" alt="" />
+            </button>
+          </div>
+          <div class="text">
+            <div class="txt">
+              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+            </div>
+            <div class="">
+              <div class="date">
+                <b>세일러목</b> <span class="date">2022.10.14</span>
+              </div>
+              <div class="etc-cont">
+                <span class="view"><i></i>72.42</span>
+                <span class="comment"><i></i>156</span>
+                <span class="like"><i></i>326</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <!--//cont-->
+        <div class="cont">
+          <div class="photo">
+            <button>
+              <img src="../images/img-banner.jpg" alt="" />
+            </button>
+          </div>
+          <div class="text">
+            <div class="txt">
+              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+            </div>
+            <div class="">
+              <div class="date">
+                <b>세일러목</b> <span class="date">2022.10.14</span>
+              </div>
+              <div class="etc-cont">
+                <span class="view"><i></i>72.42</span>
+                <span class="comment"><i></i>156</span>
+                <span class="like"><i></i>326</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <!--//cont-->
+        <div class="cont">
+          <div class="photo">
+            <button>
+              <img src="../images/img-banner.jpg" alt="" />
+            </button>
+          </div>
+          <div class="text">
+            <div class="txt">
+              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+            </div>
+            <div class="">
+              <div class="date">
+                <b>세일러목</b> <span class="date">2022.10.14</span>
+              </div>
+              <div class="etc-cont">
+                <span class="view"><i></i>72.42</span>
+                <span class="comment"><i></i>156</span>
+                <span class="like"><i></i>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!--//cont-->
+          <div class="cont">
+            <div class="photo">
+              <button>
+                <img src="../images/img-banner.jpg" alt="" />
+              </button>
+            </div>
+            <div class="text">
+              <div class="txt">
+                유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+              </div>
+              <div class="">
+                <div class="date">
+                  <b>세일러목</b> <span class="date">2022.10.14</span>
+                </div>
+                <div class="etc-cont">
+                  <span class="view"><i></i>72.42</span>
+                  <span class="comment"><i></i>156</span>
+                  <span class="like"><i></i>326</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--//cont-->
+            <!--//cont-->
+        <div class="cont">
+          <div class="photo">
+            <button>
+              <img src="../images/img-banner.jpg" alt="" />
+            </button>
+          </div>
+          <div class="text">
+            <div class="txt">
+              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+            </div>
+            <div class="">
+              <div class="date">
+                <b>세일러목</b> <span class="date">2022.10.14</span>
+              </div>
+              <div class="etc-cont">
+                <span class="view"><i></i>72.42</span>
+                <span class="comment"><i></i>156</span>
+                <span class="like"><i></i>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--//cont-->
+          <!--//cont-->
+          <div class="cont">
+            <div class="photo">
+              <button>
+                <img src="../images/img-banner.jpg" alt="" />
+              </button>
+            </div>
+            <div class="text">
+              <div class="txt">
+                유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+              </div>
+              <div class="">
+                <div class="date">
+                  <b>세일러목</b> <span class="date">2022.10.14</span>
+                </div>
+                <div class="etc-cont">
+                  <span class="view"><i></i>72.42</span>
+                  <span class="comment"><i></i>156</span>
+                  <span class="like"><i></i>326</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--//cont-->
+            <!--//cont-->
+        <div class="cont">
+          <div class="photo">
+            <button>
+              <img src="../images/img-banner.jpg" alt="" />
+            </button>
+          </div>
+          <div class="text">
+            <div class="txt">
+              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+            </div>
+            <div class="">
+              <div class="date">
+                <b>세일러목</b> <span class="date">2022.10.14</span>
+              </div>
+              <div class="etc-cont">
+                <span class="view"><i></i>72.42</span>
+                <span class="comment"><i></i>156</span>
+                <span class="like"><i></i>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--//cont-->
+        <div class="penpla-wrap2">
+          <div class="more">
+            <button class="">더보기</button>
+          </div>
+        </div>
+      </section>
+   
+
+    </main>
+  </div>
+  <!--//wrap-->
+  <footer class="">
+    <button type="button" class="home on"><i></i>홈</button>
+    <button type="button" class="talk"><i></i>펜팔</button>
+    <button type="button" class="add"><i></i></button>
+    <button type="button" class="mall"><i></i>구독</button>
+    <button type="button" class="mypage"><i></i>내정보</button>
+  </footer>
+</body>
+
 </html>

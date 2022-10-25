@@ -16,31 +16,69 @@
   </head>
   <body>
     <div id="wrap">
-      <header>
+      <header id="header" class="">
         <h1>
           <button type="button">로고</button>
         </h1>
         <button type="button" class="menu" onclick="openNav()">빠른메뉴</button>
-
+  
         <div class="search-wrap">
           <input type="search" placeholder="" />
           <button type="button" class="ic search">검색</button>
         </div>
       </header>
-
+  
+      <div id="mySidepanel" class="sidepanel side-menu" style="">
+        <div class="inner" id="left-menu">
+          <div class="side-header"><i class="ic login"></i> 로그인하세요</div>
+          <div class="side-cont">
+            <div class="ect-list">
+              <button type="button"><i class="ic checkin"></i>체크인</button>
+              <button type="button"><i class="ic notice"></i>공지/알림</button>
+              <button type="button"><i class="ic pay"></i>회비</button>
+            </div>
+            <button type="button" class="app">광화문 ON 앱으로 보기</button>
+  
+            <div class="nav-list">
+              <button type="button" class="news"><i></i>뉴스</button>
+              <button type="button" class="around"><i></i>광장</button>
+              <button type="button" class="tv"><i></i>TV</button>
+              <button type="button" class="shopping"><i></i>쇼핑</button>
+              <button type="button" class="event"><i></i>행사</button>
+            </div>
+  
+            <div class="site-list">
+              <h2 class="title">제휴사이트 바로가기</h2>
+              <div class="list">
+                <button type="button"><i></i>자유일보</button>
+                <button type="button"><i></i>설교학교</button>
+                <button type="button"><i></i>교민청</button>
+                <button type="button"><i></i>대국본</button>
+              </div>
+            </div>
+          </div>
+          <!--//wrap-->
+          <div class="fnb-list">
+            <button type="button">내정보</button>
+            <button type="button">개인약관</button>
+          </div>
+          <a href="javascript:void(0)" class="close" onclick="closeNav()">닫기</a>
+        </div>
+        <!--//inner-->
+        <div class="bgDim"></div>
+      </div>
+      <!--//sidepanel-->
+  
       <div class="nav-wrap">
         <nav>
-          <button type="button">뉴스</button>
-          <button type="button">포토</button>
+          <button type="button">홈</button>
           <button type="button" class="on">펜팔</button>
+          <button type="button">뉴스</button>
           <button type="button">TV</button>
-          <button type="button">광장</button>
-          <button type="button">쇼핑</button>
           <button type="button">행사</button>
         </nav>
       </div>
       <!--//nav-wrap-->
-
       <section class="content-wrap">
         <div class="tab-list">
           <button type="button" class="">오늘의 펜팔</button>
@@ -49,8 +87,19 @@
         </div>
 
         <div class="story-wrap mt20">
-          <h2 class="title mb20">펜팔 스토리</h2>
           <ul>
+            <li>
+              <button type="button">카테고리명</button>
+            </li>
+            <li>
+              <button type="button">카테고리명</button>
+            </li>
+            <li>
+              <button type="button">카테고리명</button>
+            </li>
+            <li>
+              <button type="button">카테고리명</button>
+            </li>
             <li>
               <button type="button">카테고리명</button>
             </li>

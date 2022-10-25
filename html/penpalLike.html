@@ -70,16 +70,52 @@
 
     <div class="nav-wrap">
       <nav>
-        <button type="button" class="on">홈</button>
-        <button type="button">펜팔</button>
+        <button type="button">홈</button>
+        <button type="button" class="on">펜팔</button>
         <button type="button">뉴스</button>
         <button type="button">TV</button>
         <button type="button">행사</button>
       </nav>
     </div>
     <!--//nav-wrap-->
+    <section class="main-wrap">
+      <div class="tab-list">
+        <button type="button" class="">오늘의 펜팔</button>
+        <button type="button" class="">펜팔 스토리</button>
+        <button type="button" class="on">주간 베스트</button>
+      </div>
+    </section>
     <main>
+      <section class="key-wrap">
 
+        <div class="key-title" id="keyTitle">
+          <div class="noti">공지</div>
+          <div class="nlist">
+            <span>무도한 도발 중단하라</span>
+          </div>
+          <div class="btn" >
+            <button onclick="openKey();" id="openKeyBtn">열기</button>
+          </div>
+        </div>
+        <!--key-title-->
+        <div class="key-cont" id="openKeyCont" >
+          <ol>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+            <li><span>무도한 도발 중단하라</span></li>
+          </ol>
+          <button class="close" onclick="closeKey();">닫기</button>
+        </div>
+
+      </section>
+      
       <div class="mybook-list flex-justify">
         <div class="list">
           <div>
@@ -122,9 +158,9 @@
       </div>
 
       <section class="mybook-wrap">
-
+        <h2 class="title">베스트 펜팔</h2>
         <div class="cont">
-
+          <div class="num">1</div>
           <div class="photo">
             <button>
               <img src="../images/img-banner.jpg" alt="" />
@@ -134,9 +170,6 @@
             <div class="txt">
               유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
             </div>
-
-
-
             <div class="">
               <div class="date">
                 <b>세일러목</b> <span class="date">2022.10.14</span>
@@ -144,47 +177,16 @@
               <div class="etc-cont">
                 <span class="view"><i></i>72.42</span>
                 <span class="comment"><i></i>156</span>
-                <span class="like"><i></i>326</span>
+                <span class="like"><i></i>626</span>
               </div>
-
             </div>
-            <button class="more " onclick="document.getElementById('myModal').style.display='block'">구독</button>
-
           </div>
 
 
         </div>
         <!--//cont-->
         <div class="cont">
-
-
-          <div class="text">
-            <div class="txt">
-              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
-            </div>
-
-
-
-            <div class="">
-              <div class="date">
-                <b>세일러목</b> <span class="date">2022.10.14</span>
-              </div>
-              <div class="etc-cont">
-                <span class="view"><i></i>72.42</span>
-                <span class="comment"><i></i>156</span>
-                <span class="like"><i></i>326</span>
-              </div>
-
-            </div>
-            <button class="more " onclick="document.getElementById('myModal').style.display='block'">구독</button>
-
-          </div>
-
-
-        </div>
-        <!--//cont-->
-        <div class="cont">
-
+          <div class="num">2</div>
           <div class="photo">
             <button>
               <img src="../images/img-banner.jpg" alt="" />
@@ -194,9 +196,6 @@
             <div class="txt">
               유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
             </div>
-
-
-
             <div class="">
               <div class="date">
                 <b>세일러목</b> <span class="date">2022.10.14</span>
@@ -204,20 +203,16 @@
               <div class="etc-cont">
                 <span class="view"><i></i>72.42</span>
                 <span class="comment"><i></i>156</span>
-                <span class="like"><i></i>326</span>
+                <span class="like"><i></i>526</span>
               </div>
-
             </div>
-            <button class="more " onclick="document.getElementById('myModal').style.display='block'">구독</button>
-
           </div>
 
 
         </div>
         <!--//cont-->
-        <!--//cont-->
         <div class="cont">
-
+          <div class="num">3</div>
           <div class="photo">
             <button>
               <img src="../images/img-banner.jpg" alt="" />
@@ -227,9 +222,6 @@
             <div class="txt">
               유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
             </div>
-
-
-
             <div class="">
               <div class="date">
                 <b>세일러목</b> <span class="date">2022.10.14</span>
@@ -237,20 +229,16 @@
               <div class="etc-cont">
                 <span class="view"><i></i>72.42</span>
                 <span class="comment"><i></i>156</span>
-                <span class="like"><i></i>326</span>
+                <span class="like"><i></i>426</span>
               </div>
-
             </div>
-            <button class="more " onclick="document.getElementById('myModal').style.display='block'">구독</button>
-
           </div>
 
 
         </div>
         <!--//cont-->
-        <!--//cont-->
         <div class="cont">
-
+          <div class="num">4</div>
           <div class="photo">
             <button>
               <img src="../images/img-banner.jpg" alt="" />
@@ -260,9 +248,6 @@
             <div class="txt">
               유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
             </div>
-
-
-
             <div class="">
               <div class="date">
                 <b>세일러목</b> <span class="date">2022.10.14</span>
@@ -272,18 +257,14 @@
                 <span class="comment"><i></i>156</span>
                 <span class="like"><i></i>326</span>
               </div>
-
             </div>
-            <button class="more " onclick="document.getElementById('myModal').style.display='block'">구독</button>
-
           </div>
 
 
         </div>
         <!--//cont-->
-        <!--//cont-->
         <div class="cont">
-
+          <div class="num">5</div>
           <div class="photo">
             <button>
               <img src="../images/img-banner.jpg" alt="" />
@@ -293,9 +274,6 @@
             <div class="txt">
               유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
             </div>
-
-
-
             <div class="">
               <div class="date">
                 <b>세일러목</b> <span class="date">2022.10.14</span>
@@ -305,39 +283,142 @@
                 <span class="comment"><i></i>156</span>
                 <span class="like"><i></i>326</span>
               </div>
-
             </div>
-            <button class="more " onclick="document.getElementById('myModal').style.display='block'">구독</button>
-
           </div>
 
 
         </div>
         <!--//cont-->
-
+        <div class="cont">
+          <div class="num">6</div>
+          <div class="photo">
+            <button>
+              <img src="../images/img-banner.jpg" alt="" />
+            </button>
+          </div>
+          <div class="text">
+            <div class="txt">
+              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+            </div>
+            <div class="">
+              <div class="date">
+                <b>세일러목</b> <span class="date">2022.10.14</span>
+              </div>
+              <div class="etc-cont">
+                <span class="view"><i></i>72.42</span>
+                <span class="comment"><i></i>156</span>
+                <span class="like"><i></i>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!--//cont-->
+          <div class="cont">
+            <div class="num">7</div>
+            <div class="photo">
+              <button>
+                <img src="../images/img-banner.jpg" alt="" />
+              </button>
+            </div>
+            <div class="text">
+              <div class="txt">
+                유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+              </div>
+              <div class="">
+                <div class="date">
+                  <b>세일러목</b> <span class="date">2022.10.14</span>
+                </div>
+                <div class="etc-cont">
+                  <span class="view"><i></i>72.42</span>
+                  <span class="comment"><i></i>156</span>
+                  <span class="like"><i></i>326</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--//cont-->
+            <!--//cont-->
+        <div class="cont">
+          <div class="num">8</div>
+          <div class="photo">
+            <button>
+              <img src="../images/img-banner.jpg" alt="" />
+            </button>
+          </div>
+          <div class="text">
+            <div class="txt">
+              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+            </div>
+            <div class="">
+              <div class="date">
+                <b>세일러목</b> <span class="date">2022.10.14</span>
+              </div>
+              <div class="etc-cont">
+                <span class="view"><i></i>72.42</span>
+                <span class="comment"><i></i>156</span>
+                <span class="like"><i></i>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--//cont-->
+          <!--//cont-->
+          <div class="cont">
+            <div class="num">9</div>
+            <div class="photo">
+              <button>
+                <img src="../images/img-banner.jpg" alt="" />
+              </button>
+            </div>
+            <div class="text">
+              <div class="txt">
+                유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+              </div>
+              <div class="">
+                <div class="date">
+                  <b>세일러목</b> <span class="date">2022.10.14</span>
+                </div>
+                <div class="etc-cont">
+                  <span class="view"><i></i>72.42</span>
+                  <span class="comment"><i></i>156</span>
+                  <span class="like"><i></i>326</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--//cont-->
+            <!--//cont-->
+        <div class="cont">
+          <div class="num">10</div>
+          <div class="photo">
+            <button>
+              <img src="../images/img-banner.jpg" alt="" />
+            </button>
+          </div>
+          <div class="text">
+            <div class="txt">
+              유엔 진실·정의 특별보고관 만난 이용수 할머니유엔...
+            </div>
+            <div class="">
+              <div class="date">
+                <b>세일러목</b> <span class="date">2022.10.14</span>
+              </div>
+              <div class="etc-cont">
+                <span class="view"><i></i>72.42</span>
+                <span class="comment"><i></i>156</span>
+                <span class="like"><i></i>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--//cont-->
+        <div class="penpla-wrap2">
+          <div class="more">
+            <button class="">더보기</button>
+          </div>
+        </div>
       </section>
-      <div id="myModal" class="modal-cont">
-        <div class="cont modal-close">
-          <button class="text-red" onclick="modal.style.display='none'"><span class="img"><img
-                src="../images/img-banner.jpg" alt="" /></span> 구독취소</button>
-          <button onclick="modal.style.display='none'"><span class="img"><img src="../images/img-banner-03.png"
-                alt="" /></span> 숨기기</button>
-        </div>
-      </div>
-
-      <script>
-        // Get the modal
-        var modal = document.getElementById('myModal');
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function (event) {
-          if (event.target == modal) {
-            modal.style.display = "none";
-          }
-        }
-      </script>
-
-
+   
 
     </main>
   </div>
