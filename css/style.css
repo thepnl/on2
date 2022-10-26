@@ -449,11 +449,7 @@ div.more button:after {
   line-height: 28px;
   border-bottom: 1px solid #dcdcdc;
 }
-.news-list ul li:first-child a {
-  background-color: #f2f2f2;
-  color: #000;
-  font-weight: 600;
-}
+
 
 /*weather-wrap*/
 .weather-wrap {
@@ -965,7 +961,8 @@ div.more button:after {
 
 /*event-list*/
 .event-list ul li {
-  padding: 10px 0;
+  padding: 15px 5px;
+  border-bottom: 1px solid #ededed;
 }
 .event-list ul li button {
   height: 80px;
