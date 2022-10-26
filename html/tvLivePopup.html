@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../js/front.js"></script>
+    <script type="text/javascript" src="../js/modal.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header class="">
+        <h1>
+          <button type="button">로고</button>
+        </h1>
+        <button type="button" class="menu" onclick="openNav()">빠른메뉴</button>
+
+        <div class="search-wrap">
+          <div class="search-box">
+            <input type="search" placeholder="" />
+          <button type="button" class="ic search">검색</button> 
+          </div>
+        </div>
+      </header>
+
+      <div class="nav-wrap">
+        <nav>
+          <button type="button">뉴스</button>
+          <button type="button">포토</button>
+          <button type="button" class="on">펜팔</button>
+          <button type="button">TV</button>
+
+          <button type="button">쇼핑</button>
+          <button type="button">행사</button>
+        </nav>
+      </div>
+      <!--//nav-wrap-->
+
+
+    <section>
+        <div class="modal-btn-box">
+        <button type="button" id="modal-open">팝업 열기</button>  
+        </div>
+        
+        <div class="popup-wrap" id="popup" style="display: flex;">
+          <div class="popup">
+            <div class="popup-body2">
+              <div class="body-content2">
+                <h2 style="font-weight: bold; font-size: 18px; padding-bottom: 5px">광화문온TV에 후원으로 응원해 주세요.</h2>
+                  <!-- 2 -->
+                  <div class="body-contentbox2" style="border: 1px solid #c3c3c3; border-radius: 5px; "> 
+                    <div class="row">
+                      <div class="column1">
+                        <div style="position: relative">
+                          <div style="position: absolute"><img src="../images/avatar.png" /></div>
+                          <div class="text"><p>신의한수</p></div>
+                        </div>
+                      </div>
+                      <div class="column2">
+                        <p class="top">선택한 토큰</p>
+                        <div class="bottom">
+                          <div class="token">
+                            <div style="position: absolute"><img src="../images/ic-tae.png" /></div>
+                            <h2>5개</h2>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                  </div>
+                  <style>
+                    .popup-wrap {
+                      padding: 4px;
+                    }
+                   .column1 {
+                      float: left;
+                      width: 55%;
+                      padding: 18px 5px 10px 5px;
+                    }
+                    .column2 {
+                      float: left;
+                      width: 45%;
+                      padding: 15px 10px 10px 5px;
+                    }
+
+                    .column1 img {
+                      width: 50px;
+                    }
+                    .column1 .text {
+                      margin-left: 55px;
+                    }
+
+                    .column1 .text p {
+                      font-size: 20px;
+                      font-weight: 500;
+                      color: #5a5959;
+                      letter-spacing: -1px;
+                      line-height: 16px;
+                      padding-top: 15px;
+                    }
+
+                    .column2 .top {
+                      font-size: 14px;
+                      text-align: center;
+                      line-height: 10px;
+                      color: #0466f0;
+                      font-weight: 600;
+                      padding-bottom: 7px;
+                    }
+
+                    .column2 .bottom {
+                      text-align: center;
+                      padding: 2px;
+                      border-radius: 5px;
+                      background: linear-gradient(to right, red, #54a9f1);
+                    }
+
+                    .column2 .token {
+                      color: #0466f0;
+                      background-color: #fff;
+                      border-radius: 4px;
+                      padding: 5px 20px;
+                    }
+
+                    .column2 .bottom img {
+                      text-align: center;
+                      color: #0466f0;
+                      width: 25px;
+                      margin-left: 8px;
+                    }
+
+                    .column2 .bottom h2 {
+                      margin-left: 10px;
+                      text-align: center;
+                      color: #0466f0;
+                      font-size: 18px;
+                      font-weight: 600;
+                    }
+
+                    /* Clear floats after the columns */
+                    .row:after {
+                      content: "";
+                      display: table;
+                      clear: both;
+                      border: 1px solid gray
+                    }
+                  </style>
+                
+                <!-- 2 start -->
+                <div class="body-contentbox2"> 
+                  <div class="livePopup2">
+                    <h1 style="font-weight: bold; font-size: 18px;">· 보유 중인 토큰 50개</h1>
+                    <div class="columns">
+                      <div class="column3">
+                        <input type="text" style="padding: 0px 10px; width: 100%; border: 1px solid black; height: 40px;" placeholder="직접입력" />
+                      </div>
+                      <div class="column4">
+                        <button style="background-color: #5f5f5f; border: 1px solid #5f5f5f; color: #fff; padding: 10px 10px; width: 100%; height: 100%">모두 사용</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 3 start -->
+                <div class="body-contentbox2"> 
+                  <div class="livePopup2">
+                    <div class="columns">
+                      <div class="column5">
+                        <p style="margin-top: 7px; margin-left: 3px;">토큰을 충전하여 펜팔에 후원하세요</p>
+                      </div>
+                      <div class="column6">
+                        <button style="background-color: #fb5473; color: #fff; padding: 12px 3px; border-radius: 5px; width: 100%;">토큰 충전하기</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <textarea placeholder="펜팔러에게 응원 메세지 보내기"></textarea>
+              </div>
+            </div>
+            <div class="popup-foot2">
+              <span class="pop-btn confirm" id="confirm">후원하기</span>
+              <span class="pop-btn close" id="close">닫기</span>
+            </div>
+          </div>
+      </div>
+    </section>
+
+  </body>
+</html>
+
+<style>
+
+.livePopup2 .columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.livePopup2 .column3 {
+  margin-top: 10px;
+  flex: 65%;
+}
+
+.livePopup2 .column5 {
+  margin-top: 10px;
+  flex: 68%;
+}
+.livePopup2 .column6 {
+  margin-top: 10px;
+  flex: 32%;
+}
+
+.livePopup2 .column3 p {
+  font-size: 0.9em;
+}
+
+.livePopup2 .column4 {
+  margin-top: 10px;
+  padding-left: 10px;
+  flex: 35%;
+  border-radius: 5px;
+}
+
+.livePopup2 .column4 p {
+  color: #fff;
+  padding: 2px 4px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+
+.livePopup2 .column {
+  flex: 25%;
+}
+
+
+.livePopup2 .column1 {
+  flex: 50%;
+  padding: 0px;
+  font-weight: 600;
+}
+
+
+.livePopup2 .column1 p {
+  text-align: center;
+  border: 1px solid #0666ec;
+  color: #0666ec;
+  margin: 2px;
+}
+
+
+.livePopup2 .column p {
+  text-align: center;
+  border: 1px solid #0666ec;
+  color: #0666ec;
+  margin: 2px;
+}
+
+
+  textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+  resize: none;
+}
+
+  .body-contentbox2{
+ width: 100%;
+ margin-bottom: 20px;
+}
+.body-content2{
+  width:100%;
+  padding: 10px;
+
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.body-content2 h1 {
+  font-size: 25px; font-weight: 600;
+}
+
+.livePopup {
+  border: 1px solid #c3c3c3;
+  border-radius: 10px;
+  padding: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.livePopup2 {
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.livePopup2 .point {
+  border: 1px solid #0666ec;
+  padding: 10px 20px; 
+  margin: 3px;
+  border-radius: 3px;
+  
+}
+
+.livePopup2 .point img {
+  width: 30px;
+}
+
+.livePopup2 .point p {
+  text-align: center;
+  font-size: 20px;
+  color: #0666ec;
+}
+
+.livePopup .text {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.livePopup .img {
+  margin: 0px; padding:0px;
+}
+.livePopup p {
+  line-height: 17px;
+}
+
+.livePopup div img {
+  width: 50px; height: 50px;
+}
+
+.popup-body2{
+  width:100%;
+  background-color:#ffffff;
+}
+
+.body-titlebox2{
+  text-align:center;
+  width:100%;
+  height:40px;
+  margin-bottom:10px;
+}
+
+.popup-foot2{
+  width:100%;
+  height:50px;
+}
+  </style>

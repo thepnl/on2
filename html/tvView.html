@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css" />
-
+    <link rel="stylesheet" href="../css/main.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -16,30 +16,70 @@
   </head>
   <body>
     <div id="wrap">
-      <header>
+      <header id="header" class="">
         <h1>
           <button type="button">로고</button>
         </h1>
         <button type="button" class="menu" onclick="openNav()">빠른메뉴</button>
-
+  
         <div class="search-wrap">
           <input type="search" placeholder="" />
           <button type="button" class="ic search">검색</button>
         </div>
       </header>
-
+  
+      <div id="mySidepanel" class="sidepanel side-menu" style="">
+        <div class="inner" id="left-menu">
+          <div class="side-header"><i class="ic login"></i> 로그인하세요</div>
+          <div class="side-cont">
+            <div class="ect-list">
+              <button type="button"><i class="ic checkin"></i>체크인</button>
+              <button type="button"><i class="ic notice"></i>공지/알림</button>
+              <button type="button"><i class="ic pay"></i>회비</button>
+            </div>
+            <button type="button" class="app">광화문 ON 앱으로 보기</button>
+  
+            <div class="nav-list">
+              <button type="button" class="news"><i></i>뉴스</button>
+              <button type="button" class="around"><i></i>광장</button>
+              <button type="button" class="tv"><i></i>TV</button>
+              <button type="button" class="shopping"><i></i>쇼핑</button>
+              <button type="button" class="event"><i></i>행사</button>
+            </div>
+  
+            <div class="site-list">
+              <h2 class="title">제휴사이트 바로가기</h2>
+              <div class="list">
+                <button type="button"><i></i>자유일보</button>
+                <button type="button"><i></i>설교학교</button>
+                <button type="button"><i></i>교민청</button>
+                <button type="button"><i></i>대국본</button>
+              </div>
+            </div>
+          </div>
+          <!--//wrap-->
+          <div class="fnb-list">
+            <button type="button">내정보</button>
+            <button type="button">개인약관</button>
+          </div>
+          <a href="javascript:void(0)" class="close" onclick="closeNav()">닫기</a>
+        </div>
+        <!--//inner-->
+        <div class="bgDim"></div>
+      </div>
+      <!--//sidepanel-->
+  
       <div class="nav-wrap">
         <nav>
-          <button type="button">뉴스</button>
-          <button type="button">포토</button>
+          <button type="button">홈</button>
           <button type="button">펜팔</button>
+          <button type="button">뉴스</button>
           <button type="button" class="on">TV</button>
-          <button type="button">광장</button>
-          <button type="button">쇼핑</button>
           <button type="button">행사</button>
         </nav>
       </div>
       <!--//nav-wrap-->
+      
 
       <section class="">
         <div class="photo-detail-view vedio">
@@ -77,6 +117,8 @@
             </div>
           </div>
         </div>
+
+        
         <div class="photo-list">
           <h2 class="title ml10 mt20">추천영상</h2>
 
@@ -313,20 +355,80 @@
           <b>댓글 <span>5</span></b>
         </div>
         <div class="comment-input">
-          <input type="text" />
+          <div class="flex-justify mb10">
+            <input type="text" /><button class="comment-btn">게시</button>
+          </div>
           <select>
             <option>최신순</option>
             <option>인기순</option>
           </select>
         </div>
+        <div class="comment-cont-top">
+          <div class="nikname">
+            <div><span class="red">베플</span>닉네임 <em>22.05.29</em></div>
+            <div><i class="declaration">신고</i></div>
+          </div>
+          <div class="txt">
+            댓글 내용들어갑니다.댓글 내용들어갑니다.댓글 내용들어갑니다.댓글
+            내용들어갑니다.댓글 내용들어갑니다.댓글 내용들어갑니다.댓글
+            내용들어갑니다.댓글 내용들어갑니다.
+          </div>
+          <div class="etc">
+            <button type="button">답글작성</button>
+            <div>
+              <i class="like">2</i>
+              <i class="bed">2</i>
+            </div>
+          </div>
+        </div>
+        <div class="comment-cont-top">
+          <div class="nikname">
+            <div><span class="red">베플</span>닉네임 <em>22.05.29</em></div>
+            <div><i class="declaration">신고</i></div>
+          </div>
+          <div class="txt">
+            댓글 내용들어갑니다.댓글 내용들어갑니다.댓글 내용들어갑니다.댓글
+            내용들어갑니다.댓글 내용들어갑니다.댓글 내용들어갑니다.댓글
+            내용들어갑니다.댓글 내용들어갑니다.
+          </div>
+          <div class="etc">
+            <button type="button">답글작성</button>
+            <div>
+              <i class="like">2</i>
+              <i class="bed">2</i>
+            </div>
+          </div>
+        </div>
+        <div class="comment-cont-top">
+          <div class="nikname">
+            <div><span class="red">베플</span>닉네임 <em>22.05.29</em></div>
+            <div><i class="declaration">신고</i></div>
+          </div>
+          <div class="txt">
+            댓글 내용들어갑니다.댓글 내용들어갑니다.댓글 내용들어갑니다.댓글
+            내용들어갑니다.댓글 내용들어갑니다.댓글 내용들어갑니다.댓글
+            내용들어갑니다.댓글 내용들어갑니다.
+          </div>
+          <div class="etc">
+            <button type="button">답글작성</button>
+            <div>
+              <i class="like">2</i>
+              <i class="bed">2</i>
+            </div>
+          </div>
+        </div>
         <div class="comment-cont">
           <div class="nikname">
             <div>닉네임 <em>22.05.29</em></div>
             <div><i class="declaration">신고</i></div>
           </div>
-          <div class="txt">댓글 내용들어갑니다.</div>
+          <div class="txt">
+            댓글 내용들어갑니다.댓글 내용들어갑니다.댓글 내용들어갑니다.댓글
+            내용들어갑니다.댓글 내용들어갑니다.댓글 내용들어갑니다.댓글
+            내용들어갑니다.댓글 내용들어갑니다.
+          </div>
           <div class="etc">
-            <button type="button">댓글작성</button>
+            <button type="button">답글작성</button>
             <div>
               <i class="like">2</i>
               <i class="bed">2</i>
@@ -340,11 +442,26 @@
           </div>
           <div class="txt">댓글 내용들어갑니다.</div>
           <div class="etc">
-            <button type="button">댓글작성</button>
+            <button type="button">답글작성</button>
             <div>
               <i class="like">2</i>
               <i class="bed">2</i>
             </div>
+          </div>
+          <div class="comment-cont" style="border: none;"> <!-- 대댓글 -->
+            <div class="nikname">
+              <div>닉네임 <em>22.05.29</em></div>
+              <div><i class="declaration">신고</i></div>
+            </div>
+            <div class="txt">대댓글 내용이 들어갑니다</div>
+        
+
+            <div class="nikname" style="margin-top: 20px; ">
+              <div>닉네임 <em>22.05.29</em></div>
+              <div><i class="declaration">신고</i></div>
+            </div>
+            <div class="txt">대댓글 내용이 들어갑니다</div>
+       
           </div>
         </div>
         <div class="comment-cont">
@@ -354,7 +471,7 @@
           </div>
           <div class="txt">댓글 내용들어갑니다.</div>
           <div class="etc">
-            <button type="button">댓글작성</button>
+            <button type="button">답글작성</button>
             <div>
               <i class="like">2</i>
               <i class="bed">2</i>
@@ -372,12 +489,12 @@
       <!--//banner-wrap-->
     </div>
     <!--//wrap-->
-    <footer>
-      <button type="button" class="home on"><i></i>홈</button>
-      <button type="button" class="pay"><i></i>회비</button>
-      <button type="button" class="talk"><i></i>광화문톡</button>
-      <button type="button" class="mall"><i></i>광화문몰</button>
-      <button type="button" class="mypage"><i></i>내정보</button>
+    <footer class="">
+      <button type="button" class="home1"><i></i>홈</button>
+      <button type="button" class="talk"><i></i>펜팔</button>
+      <button type="button" class="add"><i></i></button>
+      <button type="button" class="mall1"><i></i>구독</button>
+      <button type="button" class="mypage1"><i></i>내정보</button>
     </footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
