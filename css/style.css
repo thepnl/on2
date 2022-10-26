@@ -1019,6 +1019,7 @@ div.more button:after {
   line-height: 18px;
   text-align: left;
   margin-bottom: 10px;
+  margin-right: 5px;
 }
 
 /*detail-view*/
@@ -1044,12 +1045,16 @@ div.more button:after {
 .detail-view .name,
 .detail-view .date {
   font-size: 12px;
+  color: #999;
 }
 .detail-view .date {
   font-size: 10px;
   color: #999;
 }
 
+.detail-view .etc-cont {
+  margin-top: 10px;
+}
 .detail-view .etc-cont i {
   width: 20px;
   height: 20px;
@@ -1059,25 +1064,30 @@ div.more button:after {
   font-size: 14px;
 }
 .detail-view .etc-cont > div:first-child {
-  width: 35%;
+  width: 45%;
 }
-.detail-view .etc-cont > div .like {
-  border: 1px solid #ccc;
+.detail-view .etc-cont > div .share {
+  border: 1px solid #ededed;
+  border-radius: 3px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 43%;
+  width: 47%;
   float: left;
   margin-right: 5px;
+  padding: 3px 4px 1px 4px;
   font-size: 12px;
+  color: #000;
+  font-weight: 600;
 }
-.detail-view .etc-cont > div .like i {
-  background: url(../images/ic-hart.png) center center no-repeat;
+.detail-view .etc-cont > div .share i {
+  background: url(../images/ic-share01.png) center center no-repeat;
   background-size: 20px;
 }
-.detail-view .etc-cont > div .comment {
-  border: 1px solid #ccc;
+.detail-view .etc-cont > div .donate {
+  border: 1px solid #ededed;
+  border-radius: 3px;
   font-size: 12px;
   text-align: center;
   display: flex;
@@ -1085,15 +1095,50 @@ div.more button:after {
   align-items: center;
   width: 40%;
   float: left;
+  padding: 3px 6px 1px 6px;
+  font-size: 12px;
+  color: #000;
+  font-weight: 600;
 }
-.detail-view .etc-cont > div .comment i {
-  background: url(../images/ic-comment.png) center center no-repeat;
+.detail-view .etc-cont > div .donate i {
+  background: url(../images/tae.png) center center no-repeat;
   background-size: 20px;
 }
 .detail-view .etc-cont > div:last-child {
-  width: 50%;
+  width: 55%;
   text-align: right;
 }
+
+.detail-view .etc-cont {
+  font-size: 12px;
+  color: #666;
+
+}
+.detail-view .etc-cont i {
+  vertical-align: sub;
+  width: 22px;
+  height: 22px;
+  margin-right: 2px;
+}
+
+.detail-view  .etc-cont span.spam i {
+  background: url(../images/ic-singo.png) center 5px no-repeat;
+  background-size: 20px;
+}
+
+.detail-view  .etc-cont span.view i {
+  background: url(../images/ic-eye.png) center 5px no-repeat;
+  background-size: 22px;
+}
+.detail-view  .etc-cont span.comment i {
+  background: url(../images/ic-comen.png)  center 3px no-repeat;
+  background-size: 22px;
+}
+.detail-view  .etc-cont span.like i {
+  background: url(../images/ic-like-xs.png)  center 3px no-repeat;
+  background-size: 22px;
+}
+
 .detail-view .etc-cont > div:last-child button {
   border: 1px solid #ccc;
   font-size: 12px;
@@ -1137,8 +1182,10 @@ div.more button:after {
 }
 .detail-view .share-cont button {
   flex: 1;
-  border: 1px solid #ccc;
-  height: 30px;
+  border: 1px solid #ededed;
+  border-radius: 3px;
+  height: 40px;
+  margin: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1150,11 +1197,40 @@ div.more button:after {
   margin-right: 5px;
 }
 .detail-view .share-cont button.like i {
-  background: url(../images/ic-hart.png) center center no-repeat;
+  background: url(../images/ic-share01.png) center center no-repeat;
   background-size: 20px;
 }
 .detail-view .share-cont button.share i {
-  background: url(../images/ic-share.png) center center no-repeat;
+  background: url(../images/tae.png) center center no-repeat;
+  background-size: 20px;
+}
+
+/* 홍길동님 */
+.detail-view .author-cont {
+  margin: 5px;
+}
+.detail-view .author-cont button {
+  flex: 1;
+  border: 1px solid #ededed;
+  border-radius: 3px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.detail-view .author-cont button i {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.detail-view .author-cont button.like i {
+  background: url(../images/ic-share01.png) center center no-repeat;
+  background-size: 20px;
+}
+.detail-view .author-cont button.share i {
+  background: url(../images/ic-like-xs.png) center center no-repeat;
   background-size: 20px;
 }
 
@@ -1276,6 +1352,7 @@ div.more button:after {
 }
 
 /*comment-wrap*/
+/*comment-wrap*/
 .comment-wrap {
   padding: 20px 10px;
 
@@ -1323,9 +1400,82 @@ div.more button:after {
   margin-bottom: 5px;
 }
 
+/*상위 3위 댓글*/
+.comment-cont-top {
+  border-bottom: 1px solid #dcdcdc;
+  padding: 10px;
+  font-size: 14px;
+  text-align: left;
+  background-color: #f5f5f5;
+}
+.comment-cont-top .nikname {
+  color: #666;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.comment-cont-top .nikname > div {
+  flex: 1;
+  text-align: left;
+}
+.comment-cont-top .nikname > div:last-child {
+  text-align: right;
+}
+
+.comment-cont-top .nikname em {
+  font-size: 12px;
+  font-style: normal;
+}
+
+.comment-cont-top .txt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.comment-cont-top .declaration {
+  background: url(../images/ic-singo.png) center center no-repeat;
+  background-size: 20px;
+  text-indent: -9999px;
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.comment-cont-top .etc {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.comment-cont-top .etc i {
+  font-size: 12px;
+  width: 30px;
+  height: 20px;
+  margin-right: 3px;
+}
+.comment-cont-top div {
+  text-align: right;
+}
+
+.comment-cont-top .etc .like {
+  background: url(../images/ic-like.png) left center no-repeat;
+  background-size: 20px;
+  padding-left: 20px;
+}
+.comment-cont-top .etc .bed {
+  background: url(../images/ic-bed.png) left center no-repeat;
+  background-size: 20px;
+  padding-left: 20px;
+}
+/* 일반댓글 */
 .comment-cont {
   border-bottom: 1px solid #dcdcdc;
-  padding: 10px 0;
+  padding: 10px;
   font-size: 14px;
   text-align: left;
 }
@@ -1346,6 +1496,7 @@ div.more button:after {
 .comment-cont .nikname em {
   font-size: 12px;
   font-style: normal;
+  margin-bottom: 10px;
 }
 
 .comment-cont .txt {
@@ -1366,14 +1517,14 @@ div.more button:after {
 }
 
 .comment-cont .etc {
-  margin-top: 5px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 .comment-cont .etc i {
   font-size: 12px;
-  width: 40px;
+  width: 30px;
   height: 20px;
   margin-right: 3px;
 }
@@ -1391,6 +1542,28 @@ div.more button:after {
   background-size: 20px;
   padding-left: 20px;
 }
+
+.comment-btn {
+  width: 80px;
+  margin-left: 5px;
+  border: 1px solid #e52d29;
+  height: 35px;
+  line-height: 35px;
+  margin-top: -5px;
+  color: #fff;
+  background-color: #e52d29;
+}
+
+.red {
+  background-color: red;
+  border: 1px solid #d40000;
+  padding: 0px 5px;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 3px;
+  line-height: 18px;
+}
+
 
 /*mypage-wrap*/
 .mypage-wrap {

@@ -488,7 +488,11 @@ footer button.on {
 }
 
 footer button.home i {
-  background: url(../images/ic-foot-01.png) center center no-repeat;
+  background: url(../images/ic-foot-01-on.jpg) center center no-repeat;
+  background-size: 40px;
+}
+footer button.home1 i {
+  background: url(../images/ic-foot-01-off.jpg) center center no-repeat;
   background-size: 40px;
 }
 footer button.pay i {
@@ -496,15 +500,31 @@ footer button.pay i {
   background-size: 40px;
 }
 footer button.talk i {
-  background: url(../images/ic-foot-03.png) center center no-repeat;
+  background: url(../images/ic-foot-03-off.jpg) center center no-repeat;
   background-size: 40px;
 }
+
+footer button.talk1 i {
+  background: url(../images/ic-foot-03-on.jpg) center center no-repeat;
+  background-size: 40px;
+}
+
 footer button.mall i {
-  background: url(../images/ic-foot-04.png) center center no-repeat;
+  background: url(../images/ic-foot-04-on.jpg) center center no-repeat;
+  background-size: 40px;
+}
+
+footer button.mall1 i {
+  background: url(../images/ic-foot-04-off.jpg) center center no-repeat;
   background-size: 40px;
 }
 footer button.mypage i {
-  background: url(../images/ic-foot-05.png) center center no-repeat;
+  background: url(../images/ic-foot-05-on.jpg) center center no-repeat;
+  background-size: 40px;
+}
+
+footer button.mypage1 i {
+  background: url(../images/ic-foot-05-off.jpg) center center no-repeat;
   background-size: 40px;
 }
 footer button.add{
