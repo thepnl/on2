@@ -1162,7 +1162,7 @@ div.more button:after {
   width: 20px;
   height: 20px;
   margin-left: 5px;
-  background: url(../images/ic-share.png) center center no-repeat;
+  background: url(../images/ic-share01.png) center center no-repeat;
   background-size: 20px;
 }
 
@@ -1203,6 +1203,11 @@ div.more button:after {
 
 .detail-view .share-cont button.like2 i {
   background: url(../images/ic-like-xs.png) center center no-repeat;
+  background-size: 20px;
+}
+
+.detail-view .share-cont button.like3 i {
+  background: url(../images/ic-hart-on.png) center center no-repeat;
   background-size: 20px;
 }
 
@@ -1363,7 +1368,7 @@ div.more button:after {
   width: 30px;
   height: 30px;
   margin-left: 5px;
-  background: url(../images/ic-share.png) center center no-repeat;
+  background: url(../images/ic-share01.png) center center no-repeat;
   background-size: 25px;
 }
 
@@ -1394,7 +1399,7 @@ div.more button:after {
   width: 30px;
   height: 30px;
   margin-left: 5px;
-  background: url(../images/ic-share.png) center center no-repeat;
+  background: url(../images/ic-share01.png) center center no-repeat;
   background-size: 20px;
 }
 
