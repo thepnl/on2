@@ -7,6 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="../js/front.js"></script>
   </head>
@@ -76,85 +81,88 @@
       </div>
       <!--//nav-wrap-->
 
-      <setcion class="banner-wrap">
+      <section class="banner-wrap">
         <a href="#non"><img src="../images/banner.jpg" alt="" /></a>
-      </setcion>
+      </section>
       <!--//banner-wrap-->
-
-      <div class="detail-view">
-        <div class="title">
-           <!-- <div class="newslogo">
-            <img
-              src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/005.png"
-              height="20"
-              alt="국민일보"
-            /> 
-          </div> -->
-          <div class="label ing">진행중</div>
-          <div class="tit">
-            공공기관장 연봉 장관 웃돌아 ..작년 평균 1억8000만원
-          </div>
-          <div class="name">채널 이름 | 2022.10.25.06:51</div>
-          <div class="etc-cont flex-justify">
-            <div>
-              <div class="share"><i></i> 공유</div>
-             
-            </div>
-            <div>
-              <div class="">
-                <div class="etc-cont">
-                  <span class="view"><i></i>7천</span>
-                  <span class="comment"><i></i>156</span>
-                  <span class="like"><i></i>626</span>
-              
-                </div>
+      
+        <div class="detail-view">
+                <div class="label ing">진행중</div>
+                <div class="title">
+                  <!-- <div class="newslogo">
+                   <img
+                     src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/005.png"
+                     height="20"
+                     alt="국민일보"
+                   /> 
+                 </div> -->
+                 <div class="tit">
+                   공공기관장 연봉 장관 웃돌아 ..작년 평균 1억8000만원
+                 </div>
+                 <div class="name">채널 이름 | 2022.10.25.06:51</div>
+                 <div class="etc-cont flex-justify">
+                   <div>
+                     <div class="share"><i></i> 공유</div>
+                   </div>
+                   <div>
+                     <div class="">
+                       <div class="etc-cont">
+                         <span class="view"><i></i>7천</span>
+                         <span class="comment"><i></i>156</span>
+                         <span class="like"><i></i>626</span>
+                        
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="photo">
+                <img
+                  src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
+                  alt=""
+                />
               </div>
+        </div>
+          <div class="title">
+           
+            <div class="txt-ul mt20 mb20">
+              <ul>
+                <li><span>모집인원</span> 99</li>
+                <li><span>행사시작</span> 2022-04-25</li>
+                <li><span>행사종료</span> 2022-04-25</li>
+              </ul>
             </div>
           </div>
-        </div>
-        <div class="photo">
-          <img
-            src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
-            alt=""
-          />
-        </div>
 
-        <div class="title">
-           
-          <div class="txt-ul mt20 mb20">
-            <ul>
-              <li><span>모집인원</span> 99</li>
-              <li><span>행사시작</span> 2022-04-25</li>
-              <li><span>행사종료</span> 2022-04-25</li>
-            </ul>
+          <div class="tabView-list">
+            <button type="button" class="on">상세내용</button>
+            <button type="button">장소</button>
           </div>
-        </div>
 
-        <div class="tabView-list">
-          <button type="button" class="on">상세내용</button>
-          <button type="button">장소</button>
-        </div>
-
-        <div class="cont">
-          김주현 금융위원장 후보자가 첫
+          <div class="cont">
+            (서울=연합뉴스) 심재훈 오주현 기자 = 김주현 금융위원장 후보자가 첫
             출근길에 취재진을 피해 홀로 출근한 데 이어 9일에는 우산으로 얼굴을
             가린 채 출근해 논란이 되고 있다. 장관급 직위 후보자로서는 이례적인
             모습으로, 언론 노출을 피하는 것 아니냐는 얘기가 나온다. 김 후보자는
             이날 오전 8시 50분께 서울 중구 예금보험공사에 마련된 인사청문회 준비
             사무실에 도보로 출근하면서 검은색 장우산으로 얼굴을 가렸다. 이날
-            가랑비가 내렸지만, 취재진이 대기하던..
-        </div>
+            가랑비가 내렸지만, 취재진이 대기하던 포토라인은 예금보험공사 1층
+            실내에 마련돼 있어 우산을 쓸 필요가 없었다. 그런데도 김 후보자는
+            우산을 접지 않은 채 건물에 들어온 뒤 포토라인에서 대기하던 취재진
+            앞을 빠른 걸음으로 지나쳐 대기하던 취재진 사이에 혼란이 일었다.
+          </div>
 
-        <div class="share-cont flex-justify">
-          <button type="button" class="like"><i></i> 공유하기</button>
-          <button type="button" class="like2"><i></i> 좋아하기</button>
-        </div>
+          <div class="share-cont flex-justify">
+            <button type="button" class="like"><i></i> 공유하기</button>
+            <button type="button" class="share"><i></i> 후원하기</button>
+            <button type="button" class="like2"><i></i> 좋아요</button>
+          </div>
 
-        <div class="btn-more mt30">
-          <button type="button">행사 참여하기</button>
+          <div class="btn-more mt30">
+            <button type="button">행사 참여하기</button>
+          </div>
+          
         </div>
-      </div>
-
       <section class="comment-wrap">
         <div class="comment-tit">
           <b>댓글 <span>5</span></b>
@@ -291,7 +299,7 @@
     <!--//wrap-->
     <footer class="">
       <button type="button" class="home1"><i></i>홈</button>
-      <button type="button" class="talk"><i></i>펜팔</button>
+      <button type="button" class="talk1 on"><i></i>펜팔</button>
       <button type="button" class="add"><i></i></button>
       <button type="button" class="mall1"><i></i>구독</button>
       <button type="button" class="mypage1"><i></i>내정보</button>
