@@ -1200,6 +1200,12 @@ div.more button:after {
   background: url(../images/ic-share01.png) center center no-repeat;
   background-size: 20px;
 }
+
+.detail-view .share-cont button.like2 i {
+  background: url(../images/ic-like-xs.png) center center no-repeat;
+  background-size: 20px;
+}
+
 .detail-view .share-cont button.share i {
   background: url(../images/tae.png) center center no-repeat;
   background-size: 20px;
