@@ -1211,6 +1211,46 @@ div.more button:after {
   background-size: 20px;
 }
 
+/* .content-wrap */
+
+.content-wrap .detail-view .cont {
+  margin-bottom: 20px;
+  padding-bottom: 60px;
+}
+
+.content-wrap .detail-view .share-cont {
+}
+.content-wrap .detail-view .share-cont button {
+  flex: 1;
+  border: 1px solid #ededed;
+  border-radius: 3px;
+  height: 40px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.content-wrap .detail-view .share-cont button i {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.content-wrap .detail-view .share-cont button.like i {
+  background: url(../images/ic-share01.png) center center no-repeat;
+  background-size: 20px;
+}
+
+.content-wrap .detail-view .share-cont button.like2 i {
+  background: url(../images/ic-like-xs.png) center center no-repeat;
+  background-size: 20px;
+}
+
+.content-wrap .detail-view .share-cont button.share i {
+  background: url(../images/tae.png) center center no-repeat;
+  background-size: 20px;
+}
+
 /* 홍길동님 */
 .detail-view .author-cont {
   margin: 5px;
@@ -1273,9 +1313,10 @@ div.more button:after {
   width: 100%;
   font-weight: 600;
   font-size: 18px;
-  background-color: #e52d29;
+  background: linear-gradient(to right, red, #54a9f1);
   color: #fff;
 }
+
 
 /*photo-detail-view*/
 .photo-detail-view {
