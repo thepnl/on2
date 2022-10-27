@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/style2.css" />
+    <link rel="stylesheet" href="../css/ghm.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../js/front.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="mypage-wrap">
+        <div class="mypage-header"><i class="ic login"></i> 내정보 관리</div>
+        <div class="mypage-list">
+        </div>
+        <!-- content form -->
+        <div id="content">
+       
+
+          <div class="signup-form">
+            <div class="step-box active"> <!-- // 클래스 active 추가 시 display:block 처리 -->
+              <div class="cmm-form">
+                <div class="label">이름</div>
+                <div class="input">
+                  <input type="text" >
+                </div>
+              </div>
+              <div class="cmm-form">
+                <p class="label" >성별</p>
+                <div class="radio-group">
+                  <span>
+                    <input type="radio" id="1" name="sex" value="남" >
+                    <label for="1">남</label>
+                  </span>
+                  <span>
+                    <input type="radio" id="2" name="sex" value="여">
+                    <label for="2">여</label>
+                  </span>
+                </div>
+              </div>
+              <div class="cmm-form">
+                <div class="label">생년월일</div>
+                <div class="input">
+                  <input type="text">
+                </div>
+              </div>
+              <div class="cmm-form">
+                <div class="label">아이디</div>
+                <div class="input">
+                  <input type="text">
+                </div>
+              </div>
+           
+                <div class="cmm-form">
+                  <div class="label">새 비밀번호</div>
+                  <div class="input">
+                    <input type="password" >
+                  </div>
+                </div>
+
+                <div class="cmm-form">
+                  <div class="label">새 비밀번호 확인</div>
+                  <div class="input">
+                    <input type="password" >
+                  </div>
+                </div>
+              <div class="cmm-form">
+                <div class="label">휴대폰번호 (예시 01012345678)</div>
+                <div class="input">
+                  <input type="tel" v-model="form.phone">
+                </div>
+              </div>
+              <div class="cmm-form">
+                <div class="label">현재 살고있는 나라</div>
+                <div class="select">
+                  <select v-model="form.countryId">
+                    <option v-for="c in info.country" :value="c.countryId" :key="`country${c.countryId}`">{{ c.country }}
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <div v-show="form.countryId === 0">
+                <div class="cmm-form">
+                  <div class="label">주소</div>
+                  <div class="input">
+                    <input disabled type="text" v-model="form.address">
+                    <button class="button" @click="showPostcode"><span>검색</span></button>
+                  </div>
+                </div>
+                <div class="cmm-form">
+                  <div class="label">세부 주소</div>
+                  <div class="input">
+                    <input type="text" v-model="form.addressDetail">
+                  </div>
+                </div>
+              </div>
+              <div class="cmm-form" v-show="form.countryId !== 0">
+                <div class="cmm-form">
+                  <div class="label">해외주소</div>
+                  <div class="input">
+                    <input type="text" v-model="form.addressForeign">
+                  </div>
+                </div>
+              </div>
+              <div class="btn-box">
+                <button type="button" class="btn-next" @click="submit()"><span>수정하기</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content form end -->
+      </div>
+    </div>
+    <!--//wrap-->
+    <footer>
+      <button type="button" class="home on"><i></i>홈</button>
+      <button type="button" class="talk"><i></i>펜팔</button>
+      <button type="button" class="write"><i></i>글쓰기</button>
+      <button type="button" class="mall"><i></i>광화문몰</button>
+      <button type="button" class="mypage"><i></i>내정보</button>
+    </footer>
+  </body>
+</html>

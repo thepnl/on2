@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/style2.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../js/front.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="mypage-wrap">
+        <div class="mypage-header"><i class="ic login"></i>정산관리</div>
+        <!-- content form -->
+        <div class="point-input ml20 mr20">
+          <div class="row">
+            <div class="column2">
+              <div class="top">받은토큰</div>
+              <div class="bottom">
+                <div class="token" style="position: relative">
+                      <h2 style="padding: 5px 10px;"><img style="position: absolute; margin-bottom: -5px; margin-left: 35px; left: 0px;" src="../images/ic-tae.png" />
+                        <span style="">5333개</span></h2>
+                </div>
+              </div>
+            </div> 
+            <div class="column1">
+              <div style="margin-top: 8px; border-radius: 5px;  background-color: #4a5b73; border: 2px solid #4a5b73;">
+                <button style="padding: 10px 10px; width: 100%; height: 100%; color: #fff">정산하기</button>
+              </div>
+            </div>
+          </div>
+          <style>
+   
+           .column1 {
+              float: left;
+              width: 30%;
+              padding: 18px 5px 10px 5px;
+            }
+            .column2 {
+              float: left;
+              width: 70%;
+            }
+
+            .column1 img {
+              width: 50px;
+            }
+            .column1 .text {
+              margin-left: 55px;
+            }
+
+            .column1 .text p {
+              font-size: 20px;
+              font-weight: 500;
+              color: #5a5959;
+              letter-spacing: -1px;
+              padding-top: 15px;
+            }
+
+            .point-input {
+              border-bottom: none;
+            }
+            
+
+  
+            .column2 .bottom {
+              text-align: center;
+              padding: 2px;
+              border-radius: 5px;
+              background: linear-gradient(to right, red, #54a9f1);
+            }
+
+            .column2 .token {
+              color: #0466f0;
+              background-color: #fff;
+              border-radius: 4px;
+            }
+
+            .column2 .bottom img {
+              text-align: center;
+              color: #0466f0;
+              width: 25px;
+              margin-left: 8px;
+            }
+
+            .column2 .bottom h2 {
+              margin-left: 10px;
+              text-align: center;
+              color: #0466f0;
+              font-size: 18px;
+              font-weight: 600;
+            }
+
+            .column3 {
+              float: left;
+              width: 50%;
+            }
+
+            .column4 {
+              float: left;
+              width: 50%;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+
+            .tab-list1 {
+              display: flex;
+              margin-right: 20px;
+              height: 50px;
+              justify-content: start;
+              align-items: center;
+              overflow-x: scroll;
+            }
+            .tab-list1 p {
+              width: 50% !important;
+              padding-bottom: 5px;
+              text-align: center;
+            }
+
+            .tab-list1 .on {
+              font-weight: bold;
+              color: red;
+            }
+
+            .tab-list2 {
+              display: flex;
+              margin-right: 20px;
+              height: 50px;
+              justify-content: start;
+              align-items: center;
+              overflow-x: scroll;
+            }
+            .tab-list2 p {
+              width: 25% !important;
+              padding-bottom: 5px;
+              text-align: center;
+            }
+  
+            .tab-list2 .on {
+              font-weight: bold;
+              color: red;
+            }
+
+            .point-cont .nikname {
+              color: black !important
+            }
+
+          </style>
+        </div>
+        <div class="mypage-list">
+        </div>
+        <section class="point-wrap">   
+          <div class="tab-list2">
+            <p style="" class="">개요</p>
+            <p style="" class="">받은내역</p>
+            <p style="" class="on">분석</p>
+            <p style="" class="">정산내역</p>
+          </div>
+        </section>
+        <div class="mypage-list">
+        </div>
+        <section class="point-wrap">   
+          <div class="tab-list1">
+            <p style="" class="on">최고 수입 리스트</p>
+            <p style="" class="">베스트 펜팔러</p>
+          </div>
+        </section>
+        <div class="row" style=" background-color: #f8f8f8; padding: 10px;">
+          <div class="column3">
+            <p>시작일 <input type="date" id="start" name="trip-start"
+          value="2022-07-22"
+          min="2020-01-01" max="2025-12-31"></p>
+          </div>
+          <div class="column4">
+            <p>종료일 <input type="date" id="start" name="trip-start"
+              value="2022-07-22"
+              min="2020-01-01" max="2025-12-31"></p>
+          </div>
+        </div> 
+        <div class="row" style=" background-color: #fff; padding: 10px;">
+          <p style="text-align: right; margin-right: 10px">
+          <select>
+            <option>토큰 갯수</option>
+            <option>후원 횟수</option>
+          </select></p>
+        </div> 
+        <section class="point-wrap">
+        <div class="point-cont">
+          <div class="nikname">
+            <div>
+              <p>우산으로 얼굴 가린 김주현 금융위원장...</p>
+            </div>
+            <div style="color:gray">1000</div>
+          </div>
+        </div>
+        <div class="point-cont">
+          <div class="nikname">
+            <div>
+              <p>우산으로 얼굴 가린 김주현 금융위원장...</p>
+            </div>
+            <div style="color:gray">800</div>
+          </div>
+        </div>
+        <div class="point-cont">
+          <div class="nikname">
+            <div>
+              <p>우산으로 얼굴 가린 김주현 금융위원장...</p>
+            </div>
+            <div style="color:gray">600</div>
+          </div>
+        </div>
+        <div class="point-cont">
+          <div class="nikname">
+            <div>
+              <p>우산으로 얼굴 가린 김주현 금융위원장...</p>
+            </div>
+            <div style="color:gray">400</div>
+          </div>
+        </div>
+        <div class="point-cont">
+          <div class="nikname">
+            <div>
+              <p>우산으로 얼굴 가린 김주현 금융위원장...</p>
+            </div>
+            <div style="color:gray">400</div>
+          </div>
+        </div>
+        <div class="point-cont">
+          <div class="nikname">
+            <div>
+              <p>우산으로 얼굴 가린 김주현 금융위원장...</p>
+            </div>
+            <div style="color:gray">400</div>
+          </div>
+        </div>
+        <div class="point-cont">
+          <div class="nikname">
+            <div>
+              <p>우산으로 얼굴 가린 김주현 금융위원장...</p>
+            </div>
+            <div style="color:gray">400</div>
+          </div>
+        </div>
+      </section>
+        <!-- content form end -->
+      </div>
+    </div>
+    <!--//wrap-->
+ 
+    <footer class="">
+      <button type="button" class="home1"><i></i>홈</button>
+      <button type="button" class="talk"><i></i>펜팔</button>
+      <button type="button" class="add"><i></i></button>
+      <button type="button" class="mall1"><i></i>구독</button>
+      <button type="button" class="mypage on"><i></i>내정보</button>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .point-cont .nikname em {
+    margin: 0px;
+  }
+</style>

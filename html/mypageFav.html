@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/style2.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../js/front.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="mypage-wrap">
+        <div class="mypage-header"><i class="ic login"></i> 포인트 관리</div>
+        <div class="mypage-list">
+        </div>
+        <!-- content form -->
+        <div class="point-input m20">
+          <div class="flex-justify mb10">
+            <h2 class="head2">보유 포인트: <span style="color: red; margin-right: 10px">1,000</span> </h2>
+            <button class="point-btn">추가구매</button>
+            <button class="point-btn" style="background-color: blue; border: 1px solid blue">포인트정산</button>
+          </div>
+        </div>
+        <section class="point-wrap">   
+          <div class="tab-list2">
+            <p style="" class="on">개요</p>
+            <p class="">후원</p>
+            <p style="" class="">구매</p>
+            <p style="" class="">결제</p>
+            <p style="" class="">수익</p>
+          </div>
+          <style>
+            .tab-list2 {
+              display: flex;
+              margin-right: 20px;
+      height: 40px;
+      justify-content: start;
+      align-items: center;
+      overflow-x: scroll;
+            }
+            .tab-list2 p {
+              width: 20% !important;
+              text-align: center;
+            }
+  
+            .tab-list2 .on {
+              font-weight: bold;
+              color: red;
+              border-bottom: 2px solid red;
+            }
+          </style>
+        <div class="tab-list mt5">
+          <button type="button" class="on">전체</button>
+          <button type="button" class="">펜팔</button>
+          <button type="button" class="">포토</button>
+       
+        </div>
+        <div class="mt10" style="display: flex; justify-content: flex-end; padding: 10px;">  <input type="date" id="start" name="trip-start"
+          value="2022-07-22"
+          min="2020-01-01" max="2025-12-31"><input type="date" id="start" name="trip-start"
+          value="2022-07-22"
+          min="2020-01-01" max="2025-12-31"></div>
+          <select>
+            <option>인기순</option>
+            <option>날짜순</option>
+          </select>
+        
+
+          <section class="panpal-list" style="padding-top: 0px;">
+            <div class="photo-list typeC">
+              <ul>
+                <li>
+                  <span>1</span>
+                  <div class="title">
+                    <button type="button">
+                      우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
+                    </button>
+                    2022-07-01
+                    <span style="background-color: red; color: #fff; border-radius: 10px; padding: 0px 10px;">후원: 1,000</span>
+
+                  </div>
+                  <div class="photo">
+                    <img
+                      src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <span>2</span>
+                  <div class="title">
+                    <button type="button">
+                      우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
+                    </button>
+                    2022-07-01
+                    <span style="background-color: red; color: #fff; border-radius: 10px; padding: 0px 10px;">후원: 500</span>
+
+                  </div>
+                  <div class="photo">
+                    <img
+                      src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <span>3</span>
+                  <div class="title">
+                    <button type="button">
+                      우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
+                    </button>
+                    2022-07-01
+                    <span style="background-color: red; color: #fff; border-radius: 10px; padding: 0px 10px;">후원: 900</span>
+
+                  </div>
+                  <div class="photo">
+                    <img
+                      src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <span>4</span>
+                  <div class="title">
+                    <button type="button">
+                      우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
+                    </button>
+                    2022-07-01
+                    <span style="background-color: red; color: #fff; border-radius: 10px; padding: 0px 10px;">후원: 100</span>
+
+                  </div>
+                  <div class="photo">
+                    <img
+                      src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <span>4</span>
+                  <div class="title">
+                    <button type="button">
+                      우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
+                    </button>
+                    2022-07-01
+                    <span style="background-color: red; color: #fff; border-radius: 10px; padding: 0px 10px;">후원: 1500</span>
+
+                  </div>
+                  <div class="photo">
+                    <img
+                      src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <span>5</span>
+                  <div class="title">
+                    <button type="button">
+                      우산으로 얼굴 가린 김주현 금융위원장 후보자 출근길 논란
+                    </button>
+                    2022-07-01
+                    <span style="background-color: red; color: #fff; border-radius: 10px; padding: 0px 10px;">후원: 1500</span>
+
+                  </div>
+                  <div class="photo">
+                    <img
+                      src="https://m2.nateimg.co.kr/news/artc/1654739784_596.png"
+                      alt=""
+                    />
+                  </div>
+                </li>
+              </ul>
+              <div class="more">
+                <button type="button">더보기</button>
+              </div>
+            </div>
+          </section>
+        <!-- content form end -->
+      </div>
+    </div>
+    <!--//wrap-->
+    <footer>
+      <button type="button" class="home on"><i></i>홈</button>
+      <button type="button" class="talk"><i></i>펜팔</button>
+      <button type="button" class="write"><i></i>글쓰기</button>
+      <button type="button" class="mall"><i></i>광화문몰</button>
+      <button type="button" class="mypage"><i></i>내정보</button>
+    </footer>
+  </body>
+</html>
+<style>
+  .head { 
+    padding: 30px 0px 5px 20px;
+    margin: 0px -10px;
+    font-weight: 500; font-size: 18px;
+    border-bottom: 1px solid #f00;
+  }
+  .head2 { 
+    font-size: 18px;
+  }
+</style>

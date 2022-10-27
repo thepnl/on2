@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/ghm.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../js/front.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div  class="community-upload-header">
+        <span  class="left-menu">취소</span> 
+        <div class="select">
+          <select>
+            <option  value="3">카테고리 선택</option> 
+            <option  value="2">카테고리 1</option> 
+            <option  value="1">카테고리 2</option>
+            <option  value="1">카테고리 2</option>
+          </select>
+        </div> 
+        <span  class="right-menu">
+          <a  href="javascript:void(0)">
+        등록
+          </a>
+        </span>
+      </div>
+
+      <style>
+        .community-upload-header {
+    color: #545353;
+    margin-bottom: 0.1rem;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    font-size: .3rem;
+    padding: 0.2rem 0.3rem;
+    box-shadow: 0px 0px 3px gray;
+
+}
+
+.community-upload-header .select {
+    position: relative;
+    width: 2rem;
+
+}
+
+.community-upload-header .select:before {
+    display: block;
+    content: '';
+    position: absolute;
+    right: -0.2rem;
+    top: 0.2rem;
+    width: 0.11rem;
+    height: 0.1rem;
+    border: solid 0.04rem transparent;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-radius: 0.05rem;
+    transform: rotate(-45deg);
+}
+      </style>
+
+      <div class="mypage-wrap">
+        
+      
+        <!-- content form -->
+        <div id="content">
+       
+          <div id="content">
+            <div class="cmm-list-view">
+              <div class="area-box" style="padding-top: 0.1rem;margin-bottom: 0">
+                <div class="cmm-form">
+                  <div class="select">
+                    <select>
+                      <option >공개여부 선택</option>
+                      <option >공개</option>
+                      <option >비공개</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <div class="cmm-form">
+                  <div class="input">
+                    <input type="text" placeholder="글 제목">
+                  </div>
+                </div>
+               
+                <div class="cmm-form">
+                  <div class="cmm-textarea">
+                    <div class="textarea" style="border: none;" placeholder="내용을 입력해주세요.
+      ※ 광고 목적의 스팸글, 타 회원에 대한 비방, 욕설, 유해 게시글, 오프라인 모임등의 글은 운영자에 의해 제한 됩니다."></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <!-- content form end -->
+      </div>
+    </div>
+
+    
+    <!--//wrap-->
+    <div id="footer">
+      <button type="button" class="photo upload-menu" style="margin-left: 20px;"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" style="width: 40px; color: gray">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z" />
+      </svg>
+      </button>
+    </div>
+
+    <style>
+      #footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 20;
+    padding: 0.2rem 0 0.2rem 0;
+    width: 100%;
+    border-top: solid 0.02rem #e8e8e8;
+    background: #fff;
+    z-index: 4;
+}
+      #footer button {
+        width: 15%
+      }
+    </style>
+  </body>
+</html>
