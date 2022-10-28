@@ -73,51 +73,6 @@ header h1 {
   margin-top: 10px;
 }
 
-.search-wrap {
-  background: linear-gradient(to right, red, #54a9f1);
-  padding: 2px;
-  margin: 10px 10px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  overflow: hidden;
-}
-
-.search {
-  width: 100%
-}
-
-.search-box {
-  background-color: #fff;
-  width: 100%;
-  border-radius: 5px;
-}
-
-.search-wrap input[type="search"] {
-  height: 40px;
-  border: none;
-  /* flex: 0 0 88%; */
-  width: 88%;
-  appearance: none;
-  border-radius: 3px;
-}
-.search-wrap input[type="search"]:focus {
-  border: none;
-  outline: none;
-}
-
-.search-wrap .ic.search {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  text-indent: -9999px;
-  font-size: 0;
-  margin-top: 5px;
-  background: url(../images/ic-search.png) center center no-repeat;
-  background-size: 30px;
-  margin-left: 5px;
-}
 
 .sidepanel {
   height: 250px; /* Specify a height */
@@ -2060,18 +2015,7 @@ footer button.add i {
   margin-bottom: 10px;
   background-size: 120px;
 }
-.mypage-profile .name {
-  font-size: 18px;
-  margin-bottom: 5px;
-  font-weight: 500;
-}
-.mypage-profile button.btn {
-  border: 1px solid #dcdcdc;
-  background-color: #f7f7f7;
-  font-size: 12px;
-  padding: 3px 5px;
-  display: inline;
-}
+
 
 .mypage-list {
   border-top: 1px solid #dcdcdc;

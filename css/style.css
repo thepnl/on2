@@ -66,35 +66,6 @@ header h1 {
   margin-top: 10px;
 }
 
-.search-wrap {
-  border: 2px solid #e52d29;
-  margin: 10px 10px;
-  height: 50px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 10px;
-}
-.search-wrap input[type="search"] {
-  height: 35px;
-  border: none;
-  flex: 1;
-}
-.search-wrap input[type="search"]:focus {
-  border: none;
-  outline: none;
-}
-
-.search-wrap .ic.search {
-  width: 30px;
-  height: 30px;
-  text-indent: -9999px;
-  font-size: 0;
-  background: url(../images/ic-search.png) center center no-repeat;
-  background-size: 30px;
-}
-
 .sidepanel {
   width: 100%;
   height: 100vh;
@@ -1620,6 +1591,18 @@ div.more button:after {
 /*mypage-wrap*/
 .mypage-wrap {
 }
+
+.mypage-wrap .box2 {
+  width: 80px;
+  height: 34px;
+  line-height: 2.1;
+  border: 1px solid transparent;
+  border-radius: 18px;
+  background-image: linear-gradient(#fff, #fff), linear-gradient(to right, #e5302c 0%, #2583cb 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  color: #000;
+}
 .mypage-wrap .mypage-header {
   font-size: 18px;
   font-weight: 600;
@@ -1649,9 +1632,10 @@ div.more button:after {
   background-size: 120px;
 }
 .mypage-profile .name {
-  font-size: 18px;
+  font-size: 28px;
   margin-bottom: 5px;
   font-weight: 500;
+  color: #000
 }
 .mypage-profile button.btn {
   border: 1px solid #dcdcdc;
