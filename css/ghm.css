@@ -547,10 +547,10 @@ button span{display:block;}
 .cmm-reply-box .cmm-sort-box {margin-bottom: 0.2rem;text-align: left;padding-left: 0.3rem;padding-bottom:0.1rem;margin-top: .2rem;}
 .cmm-reply-box .cmm-sort-box button{margin-right: 0.3rem;font-size:0.34rem;}
 .cmm-reply-box .cmm-sort-box button.active{font-weight:700;}
-button.like.on span{color: red;}
-button.dislike.on span{color: blue;}
-.cmm-reply-box .list .unit .group button.like.on span{color: red;}
-.cmm-reply-box .list .unit .group button.dislike.on span{color: blue;}
+button.like.on span{color: #e64843;}
+button.dislike.on span{color: #2984d7;}
+.cmm-reply-box .list .unit .group button.like.on span{color: #e64843;}
+.cmm-reply-box .list .unit .group button.dislike.on span{color: #2984d7;}
 .cmm-reply-box .list .unit .group button span{color:#666;font-size:0.34rem;}
 .cmm-reply-box .list .unit .group button em{margin-left:0.1rem;}
 .cmm-reply-box .list .unit .hide{display:none;margin:0 -0.3rem;background:#f8f9fa;}
@@ -751,10 +751,10 @@ button.dislike.on span{color: blue;}
 .cmm-reply-box .cmm-sort-box {margin-bottom: 0.2rem;text-align: left;padding-left: 0.3rem;padding-bottom:0.1rem;margin-top: .2rem;}
 .cmm-reply-box .cmm-sort-box button{margin-right: 0.3rem;font-size:0.34rem;}
 .cmm-reply-box .cmm-sort-box button.active{font-weight:700;}
-button.like.on span{color: red;}
-button.dislike.on span{color: blue;}
-.cmm-reply-box .list .unit .group button.like.on span{color: red;}
-.cmm-reply-box .list .unit .group button.dislike.on span{color: blue;}
+button.like.on span{color: #e64843;}
+button.dislike.on span{color: #2984d7;}
+.cmm-reply-box .list .unit .group button.like.on span{color: #e64843;}
+.cmm-reply-box .list .unit .group button.dislike.on span{color: #2984d7;}
 .cmm-reply-box .list .unit .group button span{color:#666;font-size:0.34rem;}
 .cmm-reply-box .list .unit .group button em{margin-left:0.1rem;}
 .cmm-reply-box .list .unit .hide{display:none;margin:0 -0.3rem;background:#f8f9fa;}

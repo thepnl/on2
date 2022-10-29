@@ -394,7 +394,7 @@ header h1 {
   text-align: center;
 }
 .nav-wrap nav button.on {
-  color: #e52d29;
+  color: #e64843;
 }
 
 /*common*/
@@ -428,7 +428,7 @@ h2.title button.more{
 
 .tab-list button.on, .tab-list button:active {
   border-bottom: 1px solid #e52d29;
-  color: #e52d29;
+  color: #e64843;
 }
 
 .tab-list button {
@@ -485,7 +485,7 @@ footer button i {
 }
 
 footer button.on {
-  color: #e52d29;
+  color: #e64843;
 }
 
 footer button.home i {
@@ -539,7 +539,7 @@ footer button.add i {
 
 .key-wrap .key-title .noti{
   width: 12%;
-  color: red;
+  color: #e64843;
   border-radius: 3px;
   text-align: center;
   border: 1px solid red;
@@ -736,7 +736,7 @@ section.list-wrap .cont .num {
     background-color: #fff;
     padding-right: 5px;
     border-radius: 0px 0px 5px 0px;
-    color: red;
+    color: #e64843;
     font-style: italic;
 }
 
@@ -1048,7 +1048,7 @@ section.mybook-wrap .cont .num {
     background-color: #fff;
     padding-right: 5px;
     border-radius: 0px 0px 5px 0px;
-    color: red;
+    color: #e64843;
     font-style: italic;
 }
 
@@ -1953,7 +1953,7 @@ section.penpal-wrap .share-cont button .ic-like{
   height: 12px;
   border: 2px solid #fff;
   border-radius: 50%;
-  background-color: red;
+  background-color: #e64843;
   font-size: 0;
 }
 

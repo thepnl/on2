@@ -315,7 +315,7 @@ header h1 {
   width: 20%;
 }
 .nav-wrap nav button.on {
-  color: #e52d29;
+  color: #e64843;
 }
 
 /*common*/
@@ -342,7 +342,7 @@ div.more button {
   width: 100%;
   height: 35px;
   flex: 1;
-  color: #e52d29;
+  color: #e64843;
   font-size: 14px;
 }
 div.more button:after {
@@ -396,7 +396,7 @@ footer button i {
 }
 
 footer button.on {
-  color: #e52d29;
+  color: #e64843;
 }
 
 footer button.home i {
@@ -472,7 +472,7 @@ footer button.add i {
 .tab-list button.on,
 .tab-list button:active {
   border-bottom: 1px solid #e52d29;
-  color: #e52d29;
+  color: #e64843;
 }
 
 
@@ -657,7 +657,7 @@ footer button.add i {
 }
 
 :root {
-  --swiper-theme-color: #e52d29;
+  --swiper-theme-color: #e64843;
 }
 
 /*article-wrap*/
@@ -807,7 +807,7 @@ footer button.add i {
   margin-bottom: 5px;
 }
 .photo-list.typeB ul li button .tit b {
-  color: #e52d29;
+  color: #e64843;
   margin-right: 5px;
 }
 
@@ -835,11 +835,11 @@ footer button.add i {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 100px;
+  height: 130px;
   padding: 20px 0;
 }
 .photo-list.typeC ul li > span {
-  color: #e52d29;
+  color: #e64843;
   font-weight: bold;
   margin-right: 5px;
   display: inline-block;
@@ -888,6 +888,7 @@ footer button.add i {
   width: 120px;
   height: 50px;
   margin-left: 10px;
+  margin-top: 10px;
 }
 .photo-list.typeC ul li .photo img {
   width: 100%;
@@ -997,7 +998,7 @@ footer button.add i {
   padding: 1px 5px;
   height: 20px;
   font-weight: 500;
-  color: #e52d29;
+  color: #e64843;
   margin-right: 5px;
 }
 .notice-wrap ul li button {
@@ -1016,7 +1017,7 @@ footer button.add i {
 }
 .notice-wrap ul li em {
   font-size: 12px;
-  color: #e52d29;
+  color: #e64843;
 }
 
 /*panpal-list*/
@@ -1056,7 +1057,7 @@ footer button.add i {
 }
 .around-list ul li .category {
   font-size: 12px;
-  color: #e52d29;
+  color: #e64843;
 }
 .around-list ul li button {
   font-size: 14px;
@@ -1075,7 +1076,7 @@ footer button.add i {
 }
 
 .around-list ul li .dday {
-  background-color: #e52d29;
+  background-color: #e64843;
   color: #fff;
   font-size: 14px;
   border-radius: 3px;
@@ -1118,14 +1119,14 @@ footer button.add i {
 }
 .event-list ul li button .label.ing,
 .detail-view .label.ing {
-  background-color: #e52d29;
+  background-color: #e64843;
   color: #fff;
 }
 .event-list ul li button .label.end,
 .detail-view .label.end {
   background-color: #fff;
   border: 1px solid #ccc;
-  color: #e52d29;
+  color: #e64843;
 }
 
 .event-list .photo {
@@ -1373,7 +1374,7 @@ footer button.add i {
 }
 
 .red { 
-  background-color: red;
+  background-color: #e64843;
   border: 1px solid #d40000;
   padding: 0px 5px;
   color: #fff;
@@ -1447,7 +1448,7 @@ footer button.add i {
 }
 .tabView-list button.on {
   border: 1px solid #e52d29;
-  color: #e52d29;
+  color: #e64843;
 }
 
 .btn-more button {
@@ -1583,7 +1584,7 @@ footer button.add i {
 }
 
 .comment-tit span {
-  color: #e52d29;
+  color: #e64843;
 }
 
 .comment-input {
@@ -1762,11 +1763,11 @@ footer button.add i {
   line-height: 35px;
   margin-top: -5px;
   color: #fff;
-  background-color: #e52d29;
+  background-color: #e64843;
 }
 
 .red {
-  background-color: red;
+  background-color: #e64843;
   border: 1px solid #d40000;
   padding: 0px 5px;
   color: #fff;
@@ -1795,7 +1796,7 @@ footer button.add i {
 }
 
 .point-tit span {
-  color: #e52d29;
+  color: #e64843;
 }
 
 .point-input {
@@ -1916,7 +1917,7 @@ footer button.add i {
 .point-cont .nikname > div:last-child {
   text-align: right;
   margin: 10px 0px;
-  color: red;
+  color: #e64843;
 }
 
 .point-cont .nikname em {
@@ -1978,7 +1979,7 @@ footer button.add i {
   line-height: 35px;
   margin-top: -5px;
   color: #fff;
-  background-color: #e52d29;
+  background-color: #e64843;
 }
 
 
@@ -2103,7 +2104,7 @@ footer button.add i {
   vertical-align: top;
 }
 .login-input input[type="radio"]:checked {
-  accent-color: #e52d29;
+  accent-color: #e64843;
 }
 
 .login-input .flex-left {
@@ -2141,7 +2142,7 @@ footer button.add i {
 }
 .login-btn button.join {
   background-color: #fff;
-  color: #e52d29;
+  color: #e64843;
   border: 1px solid #e52d29;
 }
 
