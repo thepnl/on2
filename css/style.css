@@ -1154,8 +1154,9 @@ div.more button:after {
 .detail-view .share-cont button {
   flex: 1;
   border: 1px solid #ededed;
-  border-radius: 3px;
-  height: 40px;
+  border-radius: 50%;
+  height: 75px;
+  padding: 3px;
   margin: 5px;
   display: flex;
   align-items: center;
@@ -1163,13 +1164,29 @@ div.more button:after {
   font-size: 14px;
 }
 .detail-view .share-cont button i {
-  width: 20px;
-  height: 20px;
+  width: 60px;
+  height: 60px;
   margin-right: 5px;
 }
+
+.detail-view .share-cont button.donate i {
+  background: url(../images/ic-donate01.png) center center no-repeat;
+  background-size: 60px;
+}
+
 .detail-view .share-cont button.like i {
-  background: url(../images/ic-share01.png) center center no-repeat;
-  background-size: 20px;
+  background: url(../images/ic-like01.png) center center no-repeat;
+  background-size: 60px;
+}
+
+.detail-view .share-cont button.share2 i {
+  background: url(../images/ic-share02.png) center center no-repeat;
+  background-size: 60px;
+}
+
+.detail-view .share-cont button.member i {
+  background: url(../images/ic-member01.png) center center no-repeat;
+  background-size: 60px;
 }
 
 .detail-view .share-cont button.like2 i {
@@ -1185,6 +1202,106 @@ div.more button:after {
 .detail-view .share-cont button.share i {
   background: url(../images/tae.png) center center no-repeat;
   background-size: 20px;
+}
+
+.flex-container3 {
+  border-top: 10px solid #eee;
+  position: relative;
+  display: flex;
+  justify-content:space-between;
+  padding: 10px 16px;
+  background-color: #eee;
+}
+
+.flex-container4 {
+  text-align: right; 
+  padding: 10px 20px;
+}
+
+.flex-container4 button {
+  margin: 0px 5px;
+}
+
+.flex-container5 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f2f2f285;
+  padding: 10px 0px;
+}
+
+.flex-container5 button {
+  margin: 0px 5px;
+}
+.flex-container5  button:first-child {
+  border-right: 1px solid #dcdcdc;
+  padding-right: 10px;
+}
+
+
+
+.flex-container3 button {
+  width: 80px; text-align: center;  display: inline-block; background-color: #fff;
+  vertical-align: middle; 
+  line-height: 3; 
+  border: 2px solid #4a5b73;
+  margin-left: 5px; border-radius: 5px;
+}
+
+.flex-container {
+  border-top: 10px solid #eee;
+  position: relative;
+  display: flex;
+  justify-content:space-between;
+  background-image: linear-gradient(to right, #e5302c , #3caaff);
+  padding: 20px 30px 0px 30px;
+
+
+}
+.flex-container p {
+  padding-left: 45px;
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 1.0px 2.0px 2.0px hsl(0deg 0% 0% / 0.38);
+}
+
+.flex-container2 p {
+  position: relative;
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 1.0px 2.0px 2.0px hsl(0deg 0% 0% / 0.38);
+}
+
+.flex-container span {
+  font-size: 35px;
+}
+
+.flex-container img {
+  position: absolute;
+  width: 40px;
+}
+
+.flex-container2 {
+  border-bottom: 10px solid #eee;
+  position: relative;
+  display: flex;
+  justify-content:center;
+  background-image: linear-gradient(to right, #e5302c , #3caaff);
+  padding: 20px 0px;
+}
+
+.flex-container2 button {
+  background-color: #fff;
+  text-align: left;
+  width: 100px;
+  height: 38px;
+  font-size: 16px;
+  margin: 4px;
+  text-align : center;
+  border-radius: 6px;
+  box-shadow: 1.0px 2.0px 2.0px hsl(0deg 0% 0% / 0.38);
 }
 
 /* .content-wrap */

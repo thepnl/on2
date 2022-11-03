@@ -1778,7 +1778,7 @@ footer button.add i {
 
 /*point-wrap*/
 .point-wrap {
-  padding: 0px 10px;
+  padding: 0px 15px;
 
   clear: both;
 }
@@ -1900,7 +1900,7 @@ footer button.add i {
 
 .point-cont {
   border-bottom: 1px solid #dcdcdc;
-  padding: 10px;
+  padding: 0px;
   font-size: 14px;
   text-align: left;
 }
