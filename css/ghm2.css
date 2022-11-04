@@ -44,14 +44,10 @@ button span{display:block;}
   padding-left: 10px;
   width:100%;height:1rem;line-height:1rem;font-size:0.42rem;border:none;
   background: #f9f8f8;
-  -webkit-box-shadow:inset 1px 1px 6px #000 !important;
-       -moz-box-shadow:inset 1px 1px 6px #000 !important;
-            box-shadow:inset 1px 1px 6px #000 !important;
+  box-shadow: inset 5em 1em gold;
 }
 .cmm-form .input textarea{width:100%;height:3rem;line-height:1rem;font-size:0.42rem;border:none;background: #f7f2f245;
-  -webkit-box-shadow:inset 1px 1px 6px #000 !important;
-       -moz-box-shadow:inset 1px 1px 6px #000 !important;
-            box-shadow:inset 1px 1px 6px #000 !important;
+  box-shadow: inset 5em 1em gold;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
