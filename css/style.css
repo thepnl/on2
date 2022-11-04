@@ -879,7 +879,8 @@ div.more button:after {
   position: absolute;
   font-size: 13px;
   font-weight: 600;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-top: 1px;
 }
 
 .story-wrap ul li .new span {
