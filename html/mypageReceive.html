@@ -171,68 +171,58 @@
           </div>
         </section>
 
-        <div class="row" style=" background-color: #f8f8f8; padding: 10px;">
-          <div class="column3">
-            <p>시작일 <input type="date" id="start" name="trip-start"
-          value="2022-07-22"
-          min="2020-01-01" max="2025-12-31"></p>
-          </div>
-          <div class="column4">
-            <p>종료일 <input type="date" id="start" name="trip-start"
-              value="2022-07-22"
-              min="2020-01-01" max="2025-12-31"></p>
-          </div>
-        </div> 
+        <div class="flex-container3">
+          <div> <p>시작일 <input type="date" id="start" name="trip-start"
+            value="2022-07-22"
+            min="2020-01-01" max="2025-12-31"></p></div>
+          <div>  <p>종료일 <input type="date" id="start" name="trip-start"
+            value="2022-07-22"
+            min="2020-01-01" max="2025-12-31"></p></div>
+          <div><button>검색</button></div>
+        </div>
         <section class="point-wrap">
-        <div class="point-cont">
-          <div class="nikname">
-            <div> 200개 <em> 2022-06-30</em>
-              <p>우산으로 얼굴 가린 김주현 금융위원장...</p>
+          <div class="point-cont">
+            <div class="nikname">
+              <div ><span style="color:#2583cb; margin-right: 5px">200개</span><em> 2022-06-30</em>
+                <p style="margin-top: -10px;">우산으로 얼굴 가린 김주현  얼굴 가린 김주현 금융위원장...</p>
+              </div>
+              <div>sadf님이 보냄</div>
             </div>
-            <div>sadf님이 보냄</div>
           </div>
-        </div>
-        <div class="point-cont">
-          <div class="nikname">
-            <div>  3200개 <em> 2022-06-30</em>
-              <p>우산으로 얼굴 가린 김주현 금융위원장...</p>
+          <div class="point-cont">
+            <div class="nikname">
+              <div ><span style="color:#2583cb; margin-right: 5px">200개</span><em> 2022-06-30</em>
+                <p style="margin-top: -10px;">우산으로 얼굴 가린 김주현  얼굴 가린 김주현 금융위원장...</p>
+              </div>
+              <div>sadf님이 보냄</div>
             </div>
-            <div>sadf님이 보냄</div>
           </div>
-        </div>
-        <div class="point-cont">
-          <div class="nikname">
-            <div>  200개 <em> 2022-06-30</em>
-              <p>우산으로 얼굴 가린 김주현 금융위원장...</p>
+          <div class="point-cont">
+            <div class="nikname">
+              <div ><span style="color:#2583cb; margin-right: 5px">200개</span><em> 2022-06-30</em>
+                <p style="margin-top: -10px;">우산으로 얼굴 가린 김주현  얼굴 가린 김주현 금융위원장...</p>
+              </div>
+              <div>sadf님이 보냄</div>
             </div>
-            <div>sadf님이 보냄</div>
           </div>
-        </div>
-        <div class="point-cont">
-          <div class="nikname">
-            <div>  200개 <em> 2022-06-30</em>
-              <p>우산으로 얼굴 가린 김주현 금융위원장...</p>
+          <div class="point-cont">
+            <div class="nikname">
+              <div ><span style="color:#2583cb; margin-right: 5px">200개</span><em> 2022-06-30</em>
+                <p style="margin-top: -10px;">우산으로 얼굴 가린 김주현  얼굴 가린 김주현 금융위원장...</p>
+              </div>
+              <div>sadf님이 보냄</div>
             </div>
-            <div>sadf님이 보냄</div>
           </div>
-        </div>
-        <div class="point-cont">
-          <div class="nikname">
-            <div>  200개 <em> 2022-06-30</em>
-              <p>우산으로 얼굴 가린 김주현 금융위원장...</p>
+          <div class="point-cont">
+            <div class="nikname">
+              <div ><span style="color:#2583cb; margin-right: 5px">200개</span><em> 2022-06-30</em>
+                <p style="margin-top: -10px;">우산으로 얼굴 가린 김주현  얼굴 가린 김주현 금융위원장...</p>
+              </div>
+              <div>sadf님이 보냄</div>
             </div>
-            <div>sadf님이 보냄</div>
           </div>
-        </div>
-        <div class="point-cont">
-          <div class="nikname">
-            <div>  200개 <em> 2022-06-30</em>
-              <p>우산으로 얼굴 가린 김주현 금융위원장...</p>
-            </div>
-            <div>sadf님이 보냄</div>
-          </div>
-        </div>
-      </section>
+        </section>
+          <!-- content form end -->
         <!-- content form end -->
       </div>
     </div>
@@ -249,7 +239,16 @@
 </html>
 
 <style>
-  .point-cont .nikname em {
-    margin: 0px;
+  .point-cont .nikname {
+      color: #666;
+      display: block; 
+      justify-content: none;
+      text-align: left;
   }
-</style>
+  
+  .point-cont .nikname > div:last-child {
+      text-align: right;
+      margin: 0px 0px 10px 0px;
+      color: #e64843;
+  }
+  </style>

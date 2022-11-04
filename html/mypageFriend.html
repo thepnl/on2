@@ -35,10 +35,17 @@
               <button type="button" class="ic search">검색</button>
             </div>
           </header>
-          <select style="margin-top: 20px;">
-            <option>최신순</option>
-            <option>구독순</option>
-          </select>
+          <div class="row" style=" background-color: #fff; padding: 10px;">
+            <p style="text-align: right;">
+            <select style=" position: relative;
+            width: 80px;
+            height: 28px;
+            border-radius: 4px;
+            font-size: 14px;">
+              <option>최신순</option>
+              <option>구독순</option>
+            </select></p>
+          </div> 
           <div class="row">
             <div class="column1">
               <div style="position: relative">
@@ -145,13 +152,7 @@
 
           
 
-          /* Clear floats after the columns */
-          .row:after {
-            content: "";
-            display: table;
-            clear: both;
-            border: 1px solid gray
-          }
+    
         </style>
         <!-- content form end -->
       </div>
