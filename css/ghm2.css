@@ -43,10 +43,10 @@ button span{display:block;}
 .cmm-form .input input{
   padding-left: 10px;
   width:100%;height:1rem;line-height:1rem;font-size:0.42rem;border:none;
-  background: #f9f8f8;
+  background: transparent;
   box-shadow: inset 5em 1em gold;
 }
-.cmm-form .input textarea{width:100%;height:3rem;line-height:1rem;font-size:0.42rem;border:none;background: #f7f2f245;
+.cmm-form .input textarea{width:100%;height:3rem;line-height:1rem;font-size:0.42rem;border:none;background: transparent;
   box-shadow: inset 5em 1em gold;
 }
 
