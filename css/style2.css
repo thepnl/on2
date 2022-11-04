@@ -2042,6 +2042,18 @@ footer button.add i {
   background: url(../images/ic-mypage-03.png) 10px center no-repeat;
   background-size: 25px;
 }
+
+.mypage-list button.calculator {
+  background: url(../images/ic-mypage-08.png) 10px center no-repeat;
+  background-size: 25px;
+}
+
+
+.mypage-list button.dollar {
+  background: url(../images/ic-mypage-07.png) 10px center no-repeat;
+  background-size: 25px;
+}
+
 .mypage-list button.my-comment {
   background: url(../images/ic-mypage-04.png) 10px center no-repeat;
   background-size: 25px;

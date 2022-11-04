@@ -922,8 +922,8 @@ section.list-wrap  div.date{
 }
 section.list-wrap  div.date b{
   margin-right: 5px;
-  color: #333;
-  font-weight: 600;
+  color: #999;
+  font-weight: 400;
   
 }
 
@@ -1372,8 +1372,8 @@ section.penpal-wrap .share-cont button .ic-like{
 }
 .tv-wrap  div.date b{
   margin-right: 5px;
-  color: #333;
-  font-weight: 600;
+  color: #999;
+  font-weight: 400;
   
 }
 

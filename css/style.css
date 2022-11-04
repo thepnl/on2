@@ -872,6 +872,21 @@ div.more button:after {
   text-align: center;
   width: 50%;
   float: left;
+  position: relative;
+}
+
+.story-wrap ul li .new {
+  position: absolute;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.story-wrap ul li .new span {
+  color: #e64843;
+  text-align: center;
+  vertical-align: middle;
+
 }
 
 /*around-list*/
@@ -1053,9 +1068,10 @@ div.more button:after {
   font-weight: 600;
 }
 .detail-view .etc-cont > div .share i {
-  background: url(../images/ic-share01.png) center center no-repeat;
+  background: url(../images/ic-share03.png) center center no-repeat;
   background-size: 20px;
 }
+
 .detail-view .etc-cont > div .donate {
   border: 1px solid #ededed;
   border-radius: 3px;
@@ -1208,8 +1224,8 @@ div.more button:after {
   border-top: 10px solid #eee;
   position: relative;
   display: flex;
-  justify-content:space-between;
-  padding: 10px 16px;
+  justify-content: space-between;
+  padding: 0px 16px 18px 14px;
   background-color: #eee;
 }
 
@@ -1232,19 +1248,16 @@ div.more button:after {
 .flex-container5 button {
   margin: 0px 5px;
 }
-.flex-container5  button:first-child {
-  border-right: 1px solid #dcdcdc;
-  padding-right: 10px;
-}
+.flex-container5  button:first-child {}
 
 
 
 .flex-container3 button {
   width: 80px; text-align: center;  display: inline-block; background-color: #fff;
   vertical-align: middle; 
-  line-height: 3; 
+  line-height:1.6; 
   border: 2px solid #4a5b73;
-  margin-left: 5px; border-radius: 5px;
+  margin-left: 5px; border-radius: 5px; margin-top: 23px;
 }
 
 .flex-container {
@@ -1253,7 +1266,7 @@ div.more button:after {
   display: flex;
   justify-content:space-between;
   background-image: linear-gradient(to right, #e5302c , #3caaff);
-  padding: 20px 30px 0px 30px;
+  padding: 20px 30px 3px 30px;
 
 
 }
