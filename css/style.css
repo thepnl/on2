@@ -1230,14 +1230,6 @@ div.more button:after {
   background-color: #eee;
 }
 
-.flex-container4 {
-  text-align: right; 
-  padding: 10px 20px;
-}
-
-.flex-container4 button {
-  margin: 0px 5px;
-}
 
 .flex-container5 {
   display: flex;
